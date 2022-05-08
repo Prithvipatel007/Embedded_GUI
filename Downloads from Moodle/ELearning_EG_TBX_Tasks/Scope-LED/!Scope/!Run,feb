@@ -1,0 +1,3 @@
+Obey <Obey$Dir>.!Boot
+WimpSlot -min 2048K -max 2048K
+Run <Obey$Dir>.!RunImage %*0

@@ -1,0 +1,5 @@
+echo g++ compiling ...
+dir <Obey$Dir>
+copy scope/cc cc.scope ~cf~v
+wimpslot 20M
+g++ -o ^.!RunImage cc.scope a.libtbx

@@ -1,0 +1,6487 @@
+# 1 "/home/umang/Desktop/Embedded GUI/Downloads from Moodle/ELearning_EG_FLTK_Tasks/hello-c-win/hello.cpp"
+# 1 "/home/umang/Desktop/Embedded GUI/Downloads from Moodle/ELearning_EG_FLTK_Tasks/hello-c-win//"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "/usr/include/stdc-predef.h" 1 3 4
+# 1 "<command-line>" 2
+# 1 "/home/umang/Desktop/Embedded GUI/Downloads from Moodle/ELearning_EG_FLTK_Tasks/hello-c-win/hello.cpp"
+# 1 "/usr/local/include/FL/Fl.H" 1 3
+# 26 "/usr/local/include/FL/Fl.H" 3
+# 1 "/usr/local/include/FL/Fl_Export.H" 1 3
+# 27 "/usr/local/include/FL/Fl.H" 2 3
+
+
+
+
+
+# 1 "/usr/local/include/FL/fl_utf8.h" 1 3
+# 31 "/usr/local/include/FL/fl_utf8.h" 3
+# 1 "/usr/local/include/FL/Fl_Export.H" 1 3
+# 32 "/usr/local/include/FL/fl_utf8.h" 2 3
+# 1 "/usr/local/include/FL/fl_types.h" 1 3
+# 30 "/usr/local/include/FL/fl_types.h" 3
+
+# 30 "/usr/local/include/FL/fl_types.h" 3
+typedef unsigned char uchar;
+
+typedef unsigned long ulong;
+
+
+
+
+
+typedef char *Fl_String;
+
+
+
+
+typedef const char *Fl_CString;
+
+
+typedef unsigned int Fl_Shortcut;
+
+
+typedef unsigned int Fl_Char;
+# 33 "/usr/local/include/FL/fl_utf8.h" 2 3
+
+# 1 "/usr/include/stdio.h" 1 3 4
+# 27 "/usr/include/stdio.h" 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/libc-header-start.h" 1 3 4
+# 33 "/usr/include/x86_64-linux-gnu/bits/libc-header-start.h" 3 4
+# 1 "/usr/include/features.h" 1 3 4
+# 461 "/usr/include/features.h" 3 4
+# 1 "/usr/include/x86_64-linux-gnu/sys/cdefs.h" 1 3 4
+# 452 "/usr/include/x86_64-linux-gnu/sys/cdefs.h" 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/wordsize.h" 1 3 4
+# 453 "/usr/include/x86_64-linux-gnu/sys/cdefs.h" 2 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/long-double.h" 1 3 4
+# 454 "/usr/include/x86_64-linux-gnu/sys/cdefs.h" 2 3 4
+# 462 "/usr/include/features.h" 2 3 4
+# 485 "/usr/include/features.h" 3 4
+# 1 "/usr/include/x86_64-linux-gnu/gnu/stubs.h" 1 3 4
+# 10 "/usr/include/x86_64-linux-gnu/gnu/stubs.h" 3 4
+# 1 "/usr/include/x86_64-linux-gnu/gnu/stubs-64.h" 1 3 4
+# 11 "/usr/include/x86_64-linux-gnu/gnu/stubs.h" 2 3 4
+# 486 "/usr/include/features.h" 2 3 4
+# 34 "/usr/include/x86_64-linux-gnu/bits/libc-header-start.h" 2 3 4
+# 28 "/usr/include/stdio.h" 2 3 4
+
+extern "C" {
+
+
+
+# 1 "/usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h" 1 3 4
+# 209 "/usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h" 3 4
+typedef long unsigned int size_t;
+# 34 "/usr/include/stdio.h" 2 3 4
+
+
+# 1 "/usr/lib/gcc/x86_64-linux-gnu/9/include/stdarg.h" 1 3 4
+# 40 "/usr/lib/gcc/x86_64-linux-gnu/9/include/stdarg.h" 3 4
+typedef __builtin_va_list __gnuc_va_list;
+# 37 "/usr/include/stdio.h" 2 3 4
+
+# 1 "/usr/include/x86_64-linux-gnu/bits/types.h" 1 3 4
+# 27 "/usr/include/x86_64-linux-gnu/bits/types.h" 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/wordsize.h" 1 3 4
+# 28 "/usr/include/x86_64-linux-gnu/bits/types.h" 2 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/timesize.h" 1 3 4
+# 29 "/usr/include/x86_64-linux-gnu/bits/types.h" 2 3 4
+
+
+typedef unsigned char __u_char;
+typedef unsigned short int __u_short;
+typedef unsigned int __u_int;
+typedef unsigned long int __u_long;
+
+
+typedef signed char __int8_t;
+typedef unsigned char __uint8_t;
+typedef signed short int __int16_t;
+typedef unsigned short int __uint16_t;
+typedef signed int __int32_t;
+typedef unsigned int __uint32_t;
+
+typedef signed long int __int64_t;
+typedef unsigned long int __uint64_t;
+
+
+
+
+
+
+typedef __int8_t __int_least8_t;
+typedef __uint8_t __uint_least8_t;
+typedef __int16_t __int_least16_t;
+typedef __uint16_t __uint_least16_t;
+typedef __int32_t __int_least32_t;
+typedef __uint32_t __uint_least32_t;
+typedef __int64_t __int_least64_t;
+typedef __uint64_t __uint_least64_t;
+
+
+
+typedef long int __quad_t;
+typedef unsigned long int __u_quad_t;
+
+
+
+
+
+
+
+typedef long int __intmax_t;
+typedef unsigned long int __uintmax_t;
+# 141 "/usr/include/x86_64-linux-gnu/bits/types.h" 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/typesizes.h" 1 3 4
+# 142 "/usr/include/x86_64-linux-gnu/bits/types.h" 2 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/time64.h" 1 3 4
+# 143 "/usr/include/x86_64-linux-gnu/bits/types.h" 2 3 4
+
+
+typedef unsigned long int __dev_t;
+typedef unsigned int __uid_t;
+typedef unsigned int __gid_t;
+typedef unsigned long int __ino_t;
+typedef unsigned long int __ino64_t;
+typedef unsigned int __mode_t;
+typedef unsigned long int __nlink_t;
+typedef long int __off_t;
+typedef long int __off64_t;
+typedef int __pid_t;
+typedef struct { int __val[2]; } __fsid_t;
+typedef long int __clock_t;
+typedef unsigned long int __rlim_t;
+typedef unsigned long int __rlim64_t;
+typedef unsigned int __id_t;
+typedef long int __time_t;
+typedef unsigned int __useconds_t;
+typedef long int __suseconds_t;
+
+typedef int __daddr_t;
+typedef int __key_t;
+
+
+typedef int __clockid_t;
+
+
+typedef void * __timer_t;
+
+
+typedef long int __blksize_t;
+
+
+
+
+typedef long int __blkcnt_t;
+typedef long int __blkcnt64_t;
+
+
+typedef unsigned long int __fsblkcnt_t;
+typedef unsigned long int __fsblkcnt64_t;
+
+
+typedef unsigned long int __fsfilcnt_t;
+typedef unsigned long int __fsfilcnt64_t;
+
+
+typedef long int __fsword_t;
+
+typedef long int __ssize_t;
+
+
+typedef long int __syscall_slong_t;
+
+typedef unsigned long int __syscall_ulong_t;
+
+
+
+typedef __off64_t __loff_t;
+typedef char *__caddr_t;
+
+
+typedef long int __intptr_t;
+
+
+typedef unsigned int __socklen_t;
+
+
+
+
+typedef int __sig_atomic_t;
+# 39 "/usr/include/stdio.h" 2 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h" 1 3 4
+
+
+
+
+# 1 "/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h" 1 3 4
+# 13 "/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h" 3 4
+typedef struct
+{
+  int __count;
+  union
+  {
+    unsigned int __wch;
+    char __wchb[4];
+  } __value;
+} __mbstate_t;
+# 6 "/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h" 2 3 4
+
+
+
+
+typedef struct _G_fpos_t
+{
+  __off_t __pos;
+  __mbstate_t __state;
+} __fpos_t;
+# 40 "/usr/include/stdio.h" 2 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h" 1 3 4
+# 10 "/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h" 3 4
+typedef struct _G_fpos64_t
+{
+  __off64_t __pos;
+  __mbstate_t __state;
+} __fpos64_t;
+# 41 "/usr/include/stdio.h" 2 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/types/__FILE.h" 1 3 4
+
+
+
+struct _IO_FILE;
+typedef struct _IO_FILE __FILE;
+# 42 "/usr/include/stdio.h" 2 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/types/FILE.h" 1 3 4
+
+
+
+struct _IO_FILE;
+
+
+typedef struct _IO_FILE FILE;
+# 43 "/usr/include/stdio.h" 2 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h" 1 3 4
+# 35 "/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h" 3 4
+struct _IO_FILE;
+struct _IO_marker;
+struct _IO_codecvt;
+struct _IO_wide_data;
+
+
+
+
+typedef void _IO_lock_t;
+
+
+
+
+
+struct _IO_FILE
+{
+  int _flags;
+
+
+  char *_IO_read_ptr;
+  char *_IO_read_end;
+  char *_IO_read_base;
+  char *_IO_write_base;
+  char *_IO_write_ptr;
+  char *_IO_write_end;
+  char *_IO_buf_base;
+  char *_IO_buf_end;
+
+
+  char *_IO_save_base;
+  char *_IO_backup_base;
+  char *_IO_save_end;
+
+  struct _IO_marker *_markers;
+
+  struct _IO_FILE *_chain;
+
+  int _fileno;
+  int _flags2;
+  __off_t _old_offset;
+
+
+  unsigned short _cur_column;
+  signed char _vtable_offset;
+  char _shortbuf[1];
+
+  _IO_lock_t *_lock;
+
+
+
+
+
+
+
+  __off64_t _offset;
+
+  struct _IO_codecvt *_codecvt;
+  struct _IO_wide_data *_wide_data;
+  struct _IO_FILE *_freeres_list;
+  void *_freeres_buf;
+  size_t __pad5;
+  int _mode;
+
+  char _unused2[15 * sizeof (int) - 4 * sizeof (void *) - sizeof (size_t)];
+};
+# 44 "/usr/include/stdio.h" 2 3 4
+
+
+# 1 "/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h" 1 3 4
+# 27 "/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h" 3 4
+typedef __ssize_t cookie_read_function_t (void *__cookie, char *__buf,
+                                          size_t __nbytes);
+
+
+
+
+
+
+
+typedef __ssize_t cookie_write_function_t (void *__cookie, const char *__buf,
+                                           size_t __nbytes);
+
+
+
+
+
+
+
+typedef int cookie_seek_function_t (void *__cookie, __off64_t *__pos, int __w);
+
+
+typedef int cookie_close_function_t (void *__cookie);
+
+
+
+
+
+
+typedef struct _IO_cookie_io_functions_t
+{
+  cookie_read_function_t *read;
+  cookie_write_function_t *write;
+  cookie_seek_function_t *seek;
+  cookie_close_function_t *close;
+} cookie_io_functions_t;
+# 47 "/usr/include/stdio.h" 2 3 4
+
+
+
+
+
+typedef __gnuc_va_list va_list;
+# 63 "/usr/include/stdio.h" 3 4
+typedef __off_t off_t;
+
+
+
+
+
+
+typedef __off64_t off64_t;
+
+
+
+
+
+
+typedef __ssize_t ssize_t;
+
+
+
+
+
+
+typedef __fpos_t fpos_t;
+
+
+
+
+typedef __fpos64_t fpos64_t;
+# 133 "/usr/include/stdio.h" 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/stdio_lim.h" 1 3 4
+# 134 "/usr/include/stdio.h" 2 3 4
+
+
+
+extern FILE *stdin;
+extern FILE *stdout;
+extern FILE *stderr;
+
+
+
+
+
+
+extern int remove (const char *__filename) throw ();
+
+extern int rename (const char *__old, const char *__new) throw ();
+
+
+
+extern int renameat (int __oldfd, const char *__old, int __newfd,
+       const char *__new) throw ();
+# 164 "/usr/include/stdio.h" 3 4
+extern int renameat2 (int __oldfd, const char *__old, int __newfd,
+        const char *__new, unsigned int __flags) throw ();
+
+
+
+
+
+
+
+extern FILE *tmpfile (void) ;
+# 183 "/usr/include/stdio.h" 3 4
+extern FILE *tmpfile64 (void) ;
+
+
+
+extern char *tmpnam (char *__s) throw () ;
+
+
+
+
+extern char *tmpnam_r (char *__s) throw () ;
+# 204 "/usr/include/stdio.h" 3 4
+extern char *tempnam (const char *__dir, const char *__pfx)
+     throw () __attribute__ ((__malloc__)) ;
+
+
+
+
+
+
+
+extern int fclose (FILE *__stream);
+
+
+
+
+extern int fflush (FILE *__stream);
+# 227 "/usr/include/stdio.h" 3 4
+extern int fflush_unlocked (FILE *__stream);
+# 237 "/usr/include/stdio.h" 3 4
+extern int fcloseall (void);
+# 246 "/usr/include/stdio.h" 3 4
+extern FILE *fopen (const char *__restrict __filename,
+      const char *__restrict __modes) ;
+
+
+
+
+extern FILE *freopen (const char *__restrict __filename,
+        const char *__restrict __modes,
+        FILE *__restrict __stream) ;
+# 270 "/usr/include/stdio.h" 3 4
+extern FILE *fopen64 (const char *__restrict __filename,
+        const char *__restrict __modes) ;
+extern FILE *freopen64 (const char *__restrict __filename,
+   const char *__restrict __modes,
+   FILE *__restrict __stream) ;
+
+
+
+
+extern FILE *fdopen (int __fd, const char *__modes) throw () ;
+
+
+
+
+
+extern FILE *fopencookie (void *__restrict __magic_cookie,
+     const char *__restrict __modes,
+     cookie_io_functions_t __io_funcs) throw () ;
+
+
+
+
+extern FILE *fmemopen (void *__s, size_t __len, const char *__modes)
+  throw () ;
+
+
+
+
+extern FILE *open_memstream (char **__bufloc, size_t *__sizeloc) throw () ;
+
+
+
+
+
+extern void setbuf (FILE *__restrict __stream, char *__restrict __buf) throw ();
+
+
+
+extern int setvbuf (FILE *__restrict __stream, char *__restrict __buf,
+      int __modes, size_t __n) throw ();
+
+
+
+
+extern void setbuffer (FILE *__restrict __stream, char *__restrict __buf,
+         size_t __size) throw ();
+
+
+extern void setlinebuf (FILE *__stream) throw ();
+
+
+
+
+
+
+
+extern int fprintf (FILE *__restrict __stream,
+      const char *__restrict __format, ...);
+
+
+
+
+extern int printf (const char *__restrict __format, ...);
+
+extern int sprintf (char *__restrict __s,
+      const char *__restrict __format, ...) throw ();
+
+
+
+
+
+extern int vfprintf (FILE *__restrict __s, const char *__restrict __format,
+       __gnuc_va_list __arg);
+
+
+
+
+extern int vprintf (const char *__restrict __format, __gnuc_va_list __arg);
+
+extern int vsprintf (char *__restrict __s, const char *__restrict __format,
+       __gnuc_va_list __arg) throw ();
+
+
+
+extern int snprintf (char *__restrict __s, size_t __maxlen,
+       const char *__restrict __format, ...)
+     throw () __attribute__ ((__format__ (__printf__, 3, 4)));
+
+extern int vsnprintf (char *__restrict __s, size_t __maxlen,
+        const char *__restrict __format, __gnuc_va_list __arg)
+     throw () __attribute__ ((__format__ (__printf__, 3, 0)));
+
+
+
+
+
+extern int vasprintf (char **__restrict __ptr, const char *__restrict __f,
+        __gnuc_va_list __arg)
+     throw () __attribute__ ((__format__ (__printf__, 2, 0))) ;
+extern int __asprintf (char **__restrict __ptr,
+         const char *__restrict __fmt, ...)
+     throw () __attribute__ ((__format__ (__printf__, 2, 3))) ;
+extern int asprintf (char **__restrict __ptr,
+       const char *__restrict __fmt, ...)
+     throw () __attribute__ ((__format__ (__printf__, 2, 3))) ;
+
+
+
+
+extern int vdprintf (int __fd, const char *__restrict __fmt,
+       __gnuc_va_list __arg)
+     __attribute__ ((__format__ (__printf__, 2, 0)));
+extern int dprintf (int __fd, const char *__restrict __fmt, ...)
+     __attribute__ ((__format__ (__printf__, 2, 3)));
+
+
+
+
+
+
+
+extern int fscanf (FILE *__restrict __stream,
+     const char *__restrict __format, ...) ;
+
+
+
+
+extern int scanf (const char *__restrict __format, ...) ;
+
+extern int sscanf (const char *__restrict __s,
+     const char *__restrict __format, ...) throw ();
+
+
+
+
+
+
+extern int fscanf (FILE *__restrict __stream, const char *__restrict __format, ...) __asm__ ("" "__isoc99_fscanf")
+
+                               ;
+extern int scanf (const char *__restrict __format, ...) __asm__ ("" "__isoc99_scanf")
+                              ;
+extern int sscanf (const char *__restrict __s, const char *__restrict __format, ...) throw () __asm__ ("" "__isoc99_sscanf")
+
+                      ;
+# 432 "/usr/include/stdio.h" 3 4
+extern int vfscanf (FILE *__restrict __s, const char *__restrict __format,
+      __gnuc_va_list __arg)
+     __attribute__ ((__format__ (__scanf__, 2, 0))) ;
+
+
+
+
+
+extern int vscanf (const char *__restrict __format, __gnuc_va_list __arg)
+     __attribute__ ((__format__ (__scanf__, 1, 0))) ;
+
+
+extern int vsscanf (const char *__restrict __s,
+      const char *__restrict __format, __gnuc_va_list __arg)
+     throw () __attribute__ ((__format__ (__scanf__, 2, 0)));
+
+
+
+
+extern int vfscanf (FILE *__restrict __s, const char *__restrict __format, __gnuc_va_list __arg) __asm__ ("" "__isoc99_vfscanf")
+
+
+
+     __attribute__ ((__format__ (__scanf__, 2, 0))) ;
+extern int vscanf (const char *__restrict __format, __gnuc_va_list __arg) __asm__ ("" "__isoc99_vscanf")
+
+     __attribute__ ((__format__ (__scanf__, 1, 0))) ;
+extern int vsscanf (const char *__restrict __s, const char *__restrict __format, __gnuc_va_list __arg) throw () __asm__ ("" "__isoc99_vsscanf")
+
+
+
+     __attribute__ ((__format__ (__scanf__, 2, 0)));
+# 485 "/usr/include/stdio.h" 3 4
+extern int fgetc (FILE *__stream);
+extern int getc (FILE *__stream);
+
+
+
+
+
+extern int getchar (void);
+
+
+
+
+
+
+extern int getc_unlocked (FILE *__stream);
+extern int getchar_unlocked (void);
+# 510 "/usr/include/stdio.h" 3 4
+extern int fgetc_unlocked (FILE *__stream);
+# 521 "/usr/include/stdio.h" 3 4
+extern int fputc (int __c, FILE *__stream);
+extern int putc (int __c, FILE *__stream);
+
+
+
+
+
+extern int putchar (int __c);
+# 537 "/usr/include/stdio.h" 3 4
+extern int fputc_unlocked (int __c, FILE *__stream);
+
+
+
+
+
+
+
+extern int putc_unlocked (int __c, FILE *__stream);
+extern int putchar_unlocked (int __c);
+
+
+
+
+
+
+extern int getw (FILE *__stream);
+
+
+extern int putw (int __w, FILE *__stream);
+
+
+
+
+
+
+
+extern char *fgets (char *__restrict __s, int __n, FILE *__restrict __stream)
+     ;
+# 587 "/usr/include/stdio.h" 3 4
+extern char *fgets_unlocked (char *__restrict __s, int __n,
+        FILE *__restrict __stream) ;
+# 603 "/usr/include/stdio.h" 3 4
+extern __ssize_t __getdelim (char **__restrict __lineptr,
+                             size_t *__restrict __n, int __delimiter,
+                             FILE *__restrict __stream) ;
+extern __ssize_t getdelim (char **__restrict __lineptr,
+                           size_t *__restrict __n, int __delimiter,
+                           FILE *__restrict __stream) ;
+
+
+
+
+
+
+
+extern __ssize_t getline (char **__restrict __lineptr,
+                          size_t *__restrict __n,
+                          FILE *__restrict __stream) ;
+
+
+
+
+
+
+
+extern int fputs (const char *__restrict __s, FILE *__restrict __stream);
+
+
+
+
+
+extern int puts (const char *__s);
+
+
+
+
+
+
+extern int ungetc (int __c, FILE *__stream);
+
+
+
+
+
+
+extern size_t fread (void *__restrict __ptr, size_t __size,
+       size_t __n, FILE *__restrict __stream) ;
+
+
+
+
+extern size_t fwrite (const void *__restrict __ptr, size_t __size,
+        size_t __n, FILE *__restrict __s);
+# 662 "/usr/include/stdio.h" 3 4
+extern int fputs_unlocked (const char *__restrict __s,
+      FILE *__restrict __stream);
+# 673 "/usr/include/stdio.h" 3 4
+extern size_t fread_unlocked (void *__restrict __ptr, size_t __size,
+         size_t __n, FILE *__restrict __stream) ;
+extern size_t fwrite_unlocked (const void *__restrict __ptr, size_t __size,
+          size_t __n, FILE *__restrict __stream);
+
+
+
+
+
+
+
+extern int fseek (FILE *__stream, long int __off, int __whence);
+
+
+
+
+extern long int ftell (FILE *__stream) ;
+
+
+
+
+extern void rewind (FILE *__stream);
+# 707 "/usr/include/stdio.h" 3 4
+extern int fseeko (FILE *__stream, __off_t __off, int __whence);
+
+
+
+
+extern __off_t ftello (FILE *__stream) ;
+# 731 "/usr/include/stdio.h" 3 4
+extern int fgetpos (FILE *__restrict __stream, fpos_t *__restrict __pos);
+
+
+
+
+extern int fsetpos (FILE *__stream, const fpos_t *__pos);
+# 750 "/usr/include/stdio.h" 3 4
+extern int fseeko64 (FILE *__stream, __off64_t __off, int __whence);
+extern __off64_t ftello64 (FILE *__stream) ;
+extern int fgetpos64 (FILE *__restrict __stream, fpos64_t *__restrict __pos);
+extern int fsetpos64 (FILE *__stream, const fpos64_t *__pos);
+
+
+
+extern void clearerr (FILE *__stream) throw ();
+
+extern int feof (FILE *__stream) throw () ;
+
+extern int ferror (FILE *__stream) throw () ;
+
+
+
+extern void clearerr_unlocked (FILE *__stream) throw ();
+extern int feof_unlocked (FILE *__stream) throw () ;
+extern int ferror_unlocked (FILE *__stream) throw () ;
+
+
+
+
+
+
+
+extern void perror (const char *__s);
+
+
+
+
+
+# 1 "/usr/include/x86_64-linux-gnu/bits/sys_errlist.h" 1 3 4
+# 26 "/usr/include/x86_64-linux-gnu/bits/sys_errlist.h" 3 4
+extern int sys_nerr;
+extern const char *const sys_errlist[];
+
+
+extern int _sys_nerr;
+extern const char *const _sys_errlist[];
+# 782 "/usr/include/stdio.h" 2 3 4
+
+
+
+
+extern int fileno (FILE *__stream) throw () ;
+
+
+
+
+extern int fileno_unlocked (FILE *__stream) throw () ;
+# 800 "/usr/include/stdio.h" 3 4
+extern FILE *popen (const char *__command, const char *__modes) ;
+
+
+
+
+
+extern int pclose (FILE *__stream);
+
+
+
+
+
+extern char *ctermid (char *__s) throw ();
+
+
+
+
+
+extern char *cuserid (char *__s);
+
+
+
+
+struct obstack;
+
+
+extern int obstack_printf (struct obstack *__restrict __obstack,
+      const char *__restrict __format, ...)
+     throw () __attribute__ ((__format__ (__printf__, 2, 3)));
+extern int obstack_vprintf (struct obstack *__restrict __obstack,
+       const char *__restrict __format,
+       __gnuc_va_list __args)
+     throw () __attribute__ ((__format__ (__printf__, 2, 0)));
+
+
+
+
+
+
+
+extern void flockfile (FILE *__stream) throw ();
+
+
+
+extern int ftrylockfile (FILE *__stream) throw () ;
+
+
+extern void funlockfile (FILE *__stream) throw ();
+# 858 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 873 "/usr/include/stdio.h" 3 4
+}
+# 35 "/usr/local/include/FL/fl_utf8.h" 2 3
+# 1 "/usr/include/string.h" 1 3 4
+# 26 "/usr/include/string.h" 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/libc-header-start.h" 1 3 4
+# 27 "/usr/include/string.h" 2 3 4
+
+extern "C" {
+
+
+
+
+# 1 "/usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h" 1 3 4
+# 34 "/usr/include/string.h" 2 3 4
+# 43 "/usr/include/string.h" 3 4
+extern void *memcpy (void *__restrict __dest, const void *__restrict __src,
+       size_t __n) throw () __attribute__ ((__nonnull__ (1, 2)));
+
+
+extern void *memmove (void *__dest, const void *__src, size_t __n)
+     throw () __attribute__ ((__nonnull__ (1, 2)));
+
+
+
+
+
+extern void *memccpy (void *__restrict __dest, const void *__restrict __src,
+        int __c, size_t __n)
+     throw () __attribute__ ((__nonnull__ (1, 2)));
+
+
+
+
+extern void *memset (void *__s, int __c, size_t __n) throw () __attribute__ ((__nonnull__ (1)));
+
+
+extern int memcmp (const void *__s1, const void *__s2, size_t __n)
+     throw () __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1, 2)));
+
+
+
+extern "C++"
+{
+extern void *memchr (void *__s, int __c, size_t __n)
+      throw () __asm ("memchr") __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1)));
+extern const void *memchr (const void *__s, int __c, size_t __n)
+      throw () __asm ("memchr") __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1)));
+# 89 "/usr/include/string.h" 3 4
+}
+# 99 "/usr/include/string.h" 3 4
+extern "C++" void *rawmemchr (void *__s, int __c)
+     throw () __asm ("rawmemchr") __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1)));
+extern "C++" const void *rawmemchr (const void *__s, int __c)
+     throw () __asm ("rawmemchr") __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1)));
+
+
+
+
+
+
+
+extern "C++" void *memrchr (void *__s, int __c, size_t __n)
+      throw () __asm ("memrchr") __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1)));
+extern "C++" const void *memrchr (const void *__s, int __c, size_t __n)
+      throw () __asm ("memrchr") __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1)));
+# 122 "/usr/include/string.h" 3 4
+extern char *strcpy (char *__restrict __dest, const char *__restrict __src)
+     throw () __attribute__ ((__nonnull__ (1, 2)));
+
+extern char *strncpy (char *__restrict __dest,
+        const char *__restrict __src, size_t __n)
+     throw () __attribute__ ((__nonnull__ (1, 2)));
+
+
+extern char *strcat (char *__restrict __dest, const char *__restrict __src)
+     throw () __attribute__ ((__nonnull__ (1, 2)));
+
+extern char *strncat (char *__restrict __dest, const char *__restrict __src,
+        size_t __n) throw () __attribute__ ((__nonnull__ (1, 2)));
+
+
+extern int strcmp (const char *__s1, const char *__s2)
+     throw () __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1, 2)));
+
+extern int strncmp (const char *__s1, const char *__s2, size_t __n)
+     throw () __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1, 2)));
+
+
+extern int strcoll (const char *__s1, const char *__s2)
+     throw () __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1, 2)));
+
+extern size_t strxfrm (char *__restrict __dest,
+         const char *__restrict __src, size_t __n)
+     throw () __attribute__ ((__nonnull__ (2)));
+
+
+
+# 1 "/usr/include/x86_64-linux-gnu/bits/types/locale_t.h" 1 3 4
+# 22 "/usr/include/x86_64-linux-gnu/bits/types/locale_t.h" 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h" 1 3 4
+# 28 "/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h" 3 4
+struct __locale_struct
+{
+
+  struct __locale_data *__locales[13];
+
+
+  const unsigned short int *__ctype_b;
+  const int *__ctype_tolower;
+  const int *__ctype_toupper;
+
+
+  const char *__names[13];
+};
+
+typedef struct __locale_struct *__locale_t;
+# 23 "/usr/include/x86_64-linux-gnu/bits/types/locale_t.h" 2 3 4
+
+typedef __locale_t locale_t;
+# 154 "/usr/include/string.h" 2 3 4
+
+
+extern int strcoll_l (const char *__s1, const char *__s2, locale_t __l)
+     throw () __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1, 2, 3)));
+
+
+extern size_t strxfrm_l (char *__dest, const char *__src, size_t __n,
+    locale_t __l) throw () __attribute__ ((__nonnull__ (2, 4)));
+
+
+
+
+
+extern char *strdup (const char *__s)
+     throw () __attribute__ ((__malloc__)) __attribute__ ((__nonnull__ (1)));
+
+
+
+
+
+
+extern char *strndup (const char *__string, size_t __n)
+     throw () __attribute__ ((__malloc__)) __attribute__ ((__nonnull__ (1)));
+# 204 "/usr/include/string.h" 3 4
+extern "C++"
+{
+extern char *strchr (char *__s, int __c)
+     throw () __asm ("strchr") __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1)));
+extern const char *strchr (const char *__s, int __c)
+     throw () __asm ("strchr") __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1)));
+# 224 "/usr/include/string.h" 3 4
+}
+
+
+
+
+
+
+extern "C++"
+{
+extern char *strrchr (char *__s, int __c)
+     throw () __asm ("strrchr") __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1)));
+extern const char *strrchr (const char *__s, int __c)
+     throw () __asm ("strrchr") __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1)));
+# 251 "/usr/include/string.h" 3 4
+}
+# 261 "/usr/include/string.h" 3 4
+extern "C++" char *strchrnul (char *__s, int __c)
+     throw () __asm ("strchrnul") __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1)));
+extern "C++" const char *strchrnul (const char *__s, int __c)
+     throw () __asm ("strchrnul") __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1)));
+# 273 "/usr/include/string.h" 3 4
+extern size_t strcspn (const char *__s, const char *__reject)
+     throw () __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1, 2)));
+
+
+extern size_t strspn (const char *__s, const char *__accept)
+     throw () __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1, 2)));
+
+
+extern "C++"
+{
+extern char *strpbrk (char *__s, const char *__accept)
+     throw () __asm ("strpbrk") __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1, 2)));
+extern const char *strpbrk (const char *__s, const char *__accept)
+     throw () __asm ("strpbrk") __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1, 2)));
+# 301 "/usr/include/string.h" 3 4
+}
+
+
+
+
+
+
+extern "C++"
+{
+extern char *strstr (char *__haystack, const char *__needle)
+     throw () __asm ("strstr") __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1, 2)));
+extern const char *strstr (const char *__haystack, const char *__needle)
+     throw () __asm ("strstr") __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1, 2)));
+# 328 "/usr/include/string.h" 3 4
+}
+
+
+
+
+
+
+
+extern char *strtok (char *__restrict __s, const char *__restrict __delim)
+     throw () __attribute__ ((__nonnull__ (2)));
+
+
+
+extern char *__strtok_r (char *__restrict __s,
+    const char *__restrict __delim,
+    char **__restrict __save_ptr)
+     throw () __attribute__ ((__nonnull__ (2, 3)));
+
+extern char *strtok_r (char *__restrict __s, const char *__restrict __delim,
+         char **__restrict __save_ptr)
+     throw () __attribute__ ((__nonnull__ (2, 3)));
+
+
+
+
+
+extern "C++" char *strcasestr (char *__haystack, const char *__needle)
+     throw () __asm ("strcasestr") __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1, 2)));
+extern "C++" const char *strcasestr (const char *__haystack,
+         const char *__needle)
+     throw () __asm ("strcasestr") __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1, 2)));
+# 369 "/usr/include/string.h" 3 4
+extern void *memmem (const void *__haystack, size_t __haystacklen,
+       const void *__needle, size_t __needlelen)
+     throw () __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1, 3)));
+
+
+
+extern void *__mempcpy (void *__restrict __dest,
+   const void *__restrict __src, size_t __n)
+     throw () __attribute__ ((__nonnull__ (1, 2)));
+extern void *mempcpy (void *__restrict __dest,
+        const void *__restrict __src, size_t __n)
+     throw () __attribute__ ((__nonnull__ (1, 2)));
+
+
+
+
+extern size_t strlen (const char *__s)
+     throw () __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1)));
+
+
+
+
+extern size_t strnlen (const char *__string, size_t __maxlen)
+     throw () __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1)));
+
+
+
+
+extern char *strerror (int __errnum) throw ();
+# 421 "/usr/include/string.h" 3 4
+extern char *strerror_r (int __errnum, char *__buf, size_t __buflen)
+     throw () __attribute__ ((__nonnull__ (2))) ;
+
+
+
+
+
+extern char *strerror_l (int __errnum, locale_t __l) throw ();
+
+
+
+# 1 "/usr/include/strings.h" 1 3 4
+# 23 "/usr/include/strings.h" 3 4
+# 1 "/usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h" 1 3 4
+# 24 "/usr/include/strings.h" 2 3 4
+
+
+
+
+
+
+extern "C" {
+
+
+
+extern int bcmp (const void *__s1, const void *__s2, size_t __n)
+     throw () __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1, 2)));
+
+
+extern void bcopy (const void *__src, void *__dest, size_t __n)
+  throw () __attribute__ ((__nonnull__ (1, 2)));
+
+
+extern void bzero (void *__s, size_t __n) throw () __attribute__ ((__nonnull__ (1)));
+
+
+
+extern "C++"
+{
+extern char *index (char *__s, int __c)
+     throw () __asm ("index") __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1)));
+extern const char *index (const char *__s, int __c)
+     throw () __asm ("index") __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1)));
+# 66 "/usr/include/strings.h" 3 4
+}
+
+
+
+
+
+
+
+extern "C++"
+{
+extern char *rindex (char *__s, int __c)
+     throw () __asm ("rindex") __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1)));
+extern const char *rindex (const char *__s, int __c)
+     throw () __asm ("rindex") __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1)));
+# 94 "/usr/include/strings.h" 3 4
+}
+# 104 "/usr/include/strings.h" 3 4
+extern int ffs (int __i) throw () __attribute__ ((__const__));
+
+
+
+
+
+extern int ffsl (long int __l) throw () __attribute__ ((__const__));
+__extension__ extern int ffsll (long long int __ll)
+     throw () __attribute__ ((__const__));
+
+
+
+extern int strcasecmp (const char *__s1, const char *__s2)
+     throw () __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1, 2)));
+
+
+extern int strncasecmp (const char *__s1, const char *__s2, size_t __n)
+     throw () __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1, 2)));
+
+
+
+
+
+
+extern int strcasecmp_l (const char *__s1, const char *__s2, locale_t __loc)
+     throw () __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1, 2, 3)));
+
+
+
+extern int strncasecmp_l (const char *__s1, const char *__s2,
+     size_t __n, locale_t __loc)
+     throw () __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1, 2, 4)));
+
+
+}
+# 433 "/usr/include/string.h" 2 3 4
+
+
+
+extern void explicit_bzero (void *__s, size_t __n) throw () __attribute__ ((__nonnull__ (1)));
+
+
+
+extern char *strsep (char **__restrict __stringp,
+       const char *__restrict __delim)
+     throw () __attribute__ ((__nonnull__ (1, 2)));
+
+
+
+
+extern char *strsignal (int __sig) throw ();
+
+
+extern char *__stpcpy (char *__restrict __dest, const char *__restrict __src)
+     throw () __attribute__ ((__nonnull__ (1, 2)));
+extern char *stpcpy (char *__restrict __dest, const char *__restrict __src)
+     throw () __attribute__ ((__nonnull__ (1, 2)));
+
+
+
+extern char *__stpncpy (char *__restrict __dest,
+   const char *__restrict __src, size_t __n)
+     throw () __attribute__ ((__nonnull__ (1, 2)));
+extern char *stpncpy (char *__restrict __dest,
+        const char *__restrict __src, size_t __n)
+     throw () __attribute__ ((__nonnull__ (1, 2)));
+
+
+
+
+extern int strverscmp (const char *__s1, const char *__s2)
+     throw () __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1, 2)));
+
+
+extern char *strfry (char *__string) throw () __attribute__ ((__nonnull__ (1)));
+
+
+extern void *memfrob (void *__s, size_t __n) throw () __attribute__ ((__nonnull__ (1)));
+
+
+
+
+
+
+
+extern "C++" char *basename (char *__filename)
+     throw () __asm ("basename") __attribute__ ((__nonnull__ (1)));
+extern "C++" const char *basename (const char *__filename)
+     throw () __asm ("basename") __attribute__ ((__nonnull__ (1)));
+# 499 "/usr/include/string.h" 3 4
+}
+# 36 "/usr/local/include/FL/fl_utf8.h" 2 3
+# 1 "/usr/include/c++/9/stdlib.h" 1 3
+# 36 "/usr/include/c++/9/stdlib.h" 3
+# 1 "/usr/include/c++/9/cstdlib" 1 3
+# 39 "/usr/include/c++/9/cstdlib" 3
+       
+# 40 "/usr/include/c++/9/cstdlib" 3
+
+# 1 "/usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h" 1 3
+# 252 "/usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h" 3
+namespace std
+{
+  typedef long unsigned int size_t;
+  typedef long int ptrdiff_t;
+
+
+  typedef decltype(nullptr) nullptr_t;
+
+}
+# 274 "/usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h" 3
+namespace std
+{
+  inline namespace __cxx11 __attribute__((__abi_tag__ ("cxx11"))) { }
+}
+namespace __gnu_cxx
+{
+  inline namespace __cxx11 __attribute__((__abi_tag__ ("cxx11"))) { }
+}
+# 524 "/usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h" 3
+# 1 "/usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h" 1 3
+# 525 "/usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h" 2 3
+
+
+# 1 "/usr/include/x86_64-linux-gnu/c++/9/bits/cpu_defines.h" 1 3
+# 528 "/usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h" 2 3
+# 42 "/usr/include/c++/9/cstdlib" 2 3
+# 75 "/usr/include/c++/9/cstdlib" 3
+# 1 "/usr/include/stdlib.h" 1 3 4
+# 25 "/usr/include/stdlib.h" 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/libc-header-start.h" 1 3 4
+# 26 "/usr/include/stdlib.h" 2 3 4
+
+
+
+
+
+# 1 "/usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h" 1 3 4
+# 32 "/usr/include/stdlib.h" 2 3 4
+
+extern "C" {
+
+
+
+
+
+# 1 "/usr/include/x86_64-linux-gnu/bits/waitflags.h" 1 3 4
+# 52 "/usr/include/x86_64-linux-gnu/bits/waitflags.h" 3 4
+typedef enum
+{
+  P_ALL,
+  P_PID,
+  P_PGID
+} idtype_t;
+# 40 "/usr/include/stdlib.h" 2 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/waitstatus.h" 1 3 4
+# 41 "/usr/include/stdlib.h" 2 3 4
+# 55 "/usr/include/stdlib.h" 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/floatn.h" 1 3 4
+# 75 "/usr/include/x86_64-linux-gnu/bits/floatn.h" 3 4
+typedef _Complex float __cfloat128 __attribute__ ((__mode__ (__TC__)));
+# 87 "/usr/include/x86_64-linux-gnu/bits/floatn.h" 3 4
+typedef __float128 _Float128;
+# 120 "/usr/include/x86_64-linux-gnu/bits/floatn.h" 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/floatn-common.h" 1 3 4
+# 24 "/usr/include/x86_64-linux-gnu/bits/floatn-common.h" 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/long-double.h" 1 3 4
+# 25 "/usr/include/x86_64-linux-gnu/bits/floatn-common.h" 2 3 4
+# 214 "/usr/include/x86_64-linux-gnu/bits/floatn-common.h" 3 4
+typedef float _Float32;
+# 251 "/usr/include/x86_64-linux-gnu/bits/floatn-common.h" 3 4
+typedef double _Float64;
+# 268 "/usr/include/x86_64-linux-gnu/bits/floatn-common.h" 3 4
+typedef double _Float32x;
+# 285 "/usr/include/x86_64-linux-gnu/bits/floatn-common.h" 3 4
+typedef long double _Float64x;
+# 121 "/usr/include/x86_64-linux-gnu/bits/floatn.h" 2 3 4
+# 56 "/usr/include/stdlib.h" 2 3 4
+
+
+typedef struct
+  {
+    int quot;
+    int rem;
+  } div_t;
+
+
+
+typedef struct
+  {
+    long int quot;
+    long int rem;
+  } ldiv_t;
+
+
+
+
+
+__extension__ typedef struct
+  {
+    long long int quot;
+    long long int rem;
+  } lldiv_t;
+# 97 "/usr/include/stdlib.h" 3 4
+extern size_t __ctype_get_mb_cur_max (void) throw () ;
+
+
+
+extern double atof (const char *__nptr)
+     throw () __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1))) ;
+
+extern int atoi (const char *__nptr)
+     throw () __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1))) ;
+
+extern long int atol (const char *__nptr)
+     throw () __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1))) ;
+
+
+
+__extension__ extern long long int atoll (const char *__nptr)
+     throw () __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1))) ;
+
+
+
+extern double strtod (const char *__restrict __nptr,
+        char **__restrict __endptr)
+     throw () __attribute__ ((__nonnull__ (1)));
+
+
+
+extern float strtof (const char *__restrict __nptr,
+       char **__restrict __endptr) throw () __attribute__ ((__nonnull__ (1)));
+
+extern long double strtold (const char *__restrict __nptr,
+       char **__restrict __endptr)
+     throw () __attribute__ ((__nonnull__ (1)));
+# 140 "/usr/include/stdlib.h" 3 4
+extern _Float32 strtof32 (const char *__restrict __nptr,
+     char **__restrict __endptr)
+     throw () __attribute__ ((__nonnull__ (1)));
+
+
+
+extern _Float64 strtof64 (const char *__restrict __nptr,
+     char **__restrict __endptr)
+     throw () __attribute__ ((__nonnull__ (1)));
+
+
+
+extern _Float128 strtof128 (const char *__restrict __nptr,
+       char **__restrict __endptr)
+     throw () __attribute__ ((__nonnull__ (1)));
+
+
+
+extern _Float32x strtof32x (const char *__restrict __nptr,
+       char **__restrict __endptr)
+     throw () __attribute__ ((__nonnull__ (1)));
+
+
+
+extern _Float64x strtof64x (const char *__restrict __nptr,
+       char **__restrict __endptr)
+     throw () __attribute__ ((__nonnull__ (1)));
+# 176 "/usr/include/stdlib.h" 3 4
+extern long int strtol (const char *__restrict __nptr,
+   char **__restrict __endptr, int __base)
+     throw () __attribute__ ((__nonnull__ (1)));
+
+extern unsigned long int strtoul (const char *__restrict __nptr,
+      char **__restrict __endptr, int __base)
+     throw () __attribute__ ((__nonnull__ (1)));
+
+
+
+__extension__
+extern long long int strtoq (const char *__restrict __nptr,
+        char **__restrict __endptr, int __base)
+     throw () __attribute__ ((__nonnull__ (1)));
+
+__extension__
+extern unsigned long long int strtouq (const char *__restrict __nptr,
+           char **__restrict __endptr, int __base)
+     throw () __attribute__ ((__nonnull__ (1)));
+
+
+
+
+__extension__
+extern long long int strtoll (const char *__restrict __nptr,
+         char **__restrict __endptr, int __base)
+     throw () __attribute__ ((__nonnull__ (1)));
+
+__extension__
+extern unsigned long long int strtoull (const char *__restrict __nptr,
+     char **__restrict __endptr, int __base)
+     throw () __attribute__ ((__nonnull__ (1)));
+
+
+
+
+extern int strfromd (char *__dest, size_t __size, const char *__format,
+       double __f)
+     throw () __attribute__ ((__nonnull__ (3)));
+
+extern int strfromf (char *__dest, size_t __size, const char *__format,
+       float __f)
+     throw () __attribute__ ((__nonnull__ (3)));
+
+extern int strfroml (char *__dest, size_t __size, const char *__format,
+       long double __f)
+     throw () __attribute__ ((__nonnull__ (3)));
+# 232 "/usr/include/stdlib.h" 3 4
+extern int strfromf32 (char *__dest, size_t __size, const char * __format,
+         _Float32 __f)
+     throw () __attribute__ ((__nonnull__ (3)));
+
+
+
+extern int strfromf64 (char *__dest, size_t __size, const char * __format,
+         _Float64 __f)
+     throw () __attribute__ ((__nonnull__ (3)));
+
+
+
+extern int strfromf128 (char *__dest, size_t __size, const char * __format,
+   _Float128 __f)
+     throw () __attribute__ ((__nonnull__ (3)));
+
+
+
+extern int strfromf32x (char *__dest, size_t __size, const char * __format,
+   _Float32x __f)
+     throw () __attribute__ ((__nonnull__ (3)));
+
+
+
+extern int strfromf64x (char *__dest, size_t __size, const char * __format,
+   _Float64x __f)
+     throw () __attribute__ ((__nonnull__ (3)));
+# 274 "/usr/include/stdlib.h" 3 4
+extern long int strtol_l (const char *__restrict __nptr,
+     char **__restrict __endptr, int __base,
+     locale_t __loc) throw () __attribute__ ((__nonnull__ (1, 4)));
+
+extern unsigned long int strtoul_l (const char *__restrict __nptr,
+        char **__restrict __endptr,
+        int __base, locale_t __loc)
+     throw () __attribute__ ((__nonnull__ (1, 4)));
+
+__extension__
+extern long long int strtoll_l (const char *__restrict __nptr,
+    char **__restrict __endptr, int __base,
+    locale_t __loc)
+     throw () __attribute__ ((__nonnull__ (1, 4)));
+
+__extension__
+extern unsigned long long int strtoull_l (const char *__restrict __nptr,
+       char **__restrict __endptr,
+       int __base, locale_t __loc)
+     throw () __attribute__ ((__nonnull__ (1, 4)));
+
+extern double strtod_l (const char *__restrict __nptr,
+   char **__restrict __endptr, locale_t __loc)
+     throw () __attribute__ ((__nonnull__ (1, 3)));
+
+extern float strtof_l (const char *__restrict __nptr,
+         char **__restrict __endptr, locale_t __loc)
+     throw () __attribute__ ((__nonnull__ (1, 3)));
+
+extern long double strtold_l (const char *__restrict __nptr,
+         char **__restrict __endptr,
+         locale_t __loc)
+     throw () __attribute__ ((__nonnull__ (1, 3)));
+# 316 "/usr/include/stdlib.h" 3 4
+extern _Float32 strtof32_l (const char *__restrict __nptr,
+       char **__restrict __endptr,
+       locale_t __loc)
+     throw () __attribute__ ((__nonnull__ (1, 3)));
+
+
+
+extern _Float64 strtof64_l (const char *__restrict __nptr,
+       char **__restrict __endptr,
+       locale_t __loc)
+     throw () __attribute__ ((__nonnull__ (1, 3)));
+
+
+
+extern _Float128 strtof128_l (const char *__restrict __nptr,
+         char **__restrict __endptr,
+         locale_t __loc)
+     throw () __attribute__ ((__nonnull__ (1, 3)));
+
+
+
+extern _Float32x strtof32x_l (const char *__restrict __nptr,
+         char **__restrict __endptr,
+         locale_t __loc)
+     throw () __attribute__ ((__nonnull__ (1, 3)));
+
+
+
+extern _Float64x strtof64x_l (const char *__restrict __nptr,
+         char **__restrict __endptr,
+         locale_t __loc)
+     throw () __attribute__ ((__nonnull__ (1, 3)));
+# 385 "/usr/include/stdlib.h" 3 4
+extern char *l64a (long int __n) throw () ;
+
+
+extern long int a64l (const char *__s)
+     throw () __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1))) ;
+
+
+
+
+# 1 "/usr/include/x86_64-linux-gnu/sys/types.h" 1 3 4
+# 27 "/usr/include/x86_64-linux-gnu/sys/types.h" 3 4
+extern "C" {
+
+
+
+
+
+typedef __u_char u_char;
+typedef __u_short u_short;
+typedef __u_int u_int;
+typedef __u_long u_long;
+typedef __quad_t quad_t;
+typedef __u_quad_t u_quad_t;
+typedef __fsid_t fsid_t;
+
+
+typedef __loff_t loff_t;
+
+
+
+
+typedef __ino_t ino_t;
+
+
+
+
+
+
+typedef __ino64_t ino64_t;
+
+
+
+
+typedef __dev_t dev_t;
+
+
+
+
+typedef __gid_t gid_t;
+
+
+
+
+typedef __mode_t mode_t;
+
+
+
+
+typedef __nlink_t nlink_t;
+
+
+
+
+typedef __uid_t uid_t;
+# 97 "/usr/include/x86_64-linux-gnu/sys/types.h" 3 4
+typedef __pid_t pid_t;
+
+
+
+
+
+typedef __id_t id_t;
+# 114 "/usr/include/x86_64-linux-gnu/sys/types.h" 3 4
+typedef __daddr_t daddr_t;
+typedef __caddr_t caddr_t;
+
+
+
+
+
+typedef __key_t key_t;
+
+
+
+
+# 1 "/usr/include/x86_64-linux-gnu/bits/types/clock_t.h" 1 3 4
+
+
+
+
+
+
+typedef __clock_t clock_t;
+# 127 "/usr/include/x86_64-linux-gnu/sys/types.h" 2 3 4
+
+# 1 "/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h" 1 3 4
+
+
+
+
+
+
+typedef __clockid_t clockid_t;
+# 129 "/usr/include/x86_64-linux-gnu/sys/types.h" 2 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/types/time_t.h" 1 3 4
+
+
+
+
+
+
+typedef __time_t time_t;
+# 130 "/usr/include/x86_64-linux-gnu/sys/types.h" 2 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/types/timer_t.h" 1 3 4
+
+
+
+
+
+
+typedef __timer_t timer_t;
+# 131 "/usr/include/x86_64-linux-gnu/sys/types.h" 2 3 4
+
+
+
+typedef __useconds_t useconds_t;
+
+
+
+typedef __suseconds_t suseconds_t;
+
+
+
+
+
+# 1 "/usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h" 1 3 4
+# 145 "/usr/include/x86_64-linux-gnu/sys/types.h" 2 3 4
+
+
+
+typedef unsigned long int ulong;
+typedef unsigned short int ushort;
+typedef unsigned int uint;
+
+
+
+
+# 1 "/usr/include/x86_64-linux-gnu/bits/stdint-intn.h" 1 3 4
+# 24 "/usr/include/x86_64-linux-gnu/bits/stdint-intn.h" 3 4
+typedef __int8_t int8_t;
+typedef __int16_t int16_t;
+typedef __int32_t int32_t;
+typedef __int64_t int64_t;
+# 156 "/usr/include/x86_64-linux-gnu/sys/types.h" 2 3 4
+
+
+typedef __uint8_t u_int8_t;
+typedef __uint16_t u_int16_t;
+typedef __uint32_t u_int32_t;
+typedef __uint64_t u_int64_t;
+
+
+typedef int register_t __attribute__ ((__mode__ (__word__)));
+# 176 "/usr/include/x86_64-linux-gnu/sys/types.h" 3 4
+# 1 "/usr/include/endian.h" 1 3 4
+# 24 "/usr/include/endian.h" 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/endian.h" 1 3 4
+# 35 "/usr/include/x86_64-linux-gnu/bits/endian.h" 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/endianness.h" 1 3 4
+# 36 "/usr/include/x86_64-linux-gnu/bits/endian.h" 2 3 4
+# 25 "/usr/include/endian.h" 2 3 4
+# 35 "/usr/include/endian.h" 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/byteswap.h" 1 3 4
+# 33 "/usr/include/x86_64-linux-gnu/bits/byteswap.h" 3 4
+static __inline __uint16_t
+__bswap_16 (__uint16_t __bsx)
+{
+
+  return __builtin_bswap16 (__bsx);
+
+
+
+}
+
+
+
+
+
+
+static __inline __uint32_t
+__bswap_32 (__uint32_t __bsx)
+{
+
+  return __builtin_bswap32 (__bsx);
+
+
+
+}
+# 69 "/usr/include/x86_64-linux-gnu/bits/byteswap.h" 3 4
+__extension__ static __inline __uint64_t
+__bswap_64 (__uint64_t __bsx)
+{
+
+  return __builtin_bswap64 (__bsx);
+
+
+
+}
+# 36 "/usr/include/endian.h" 2 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/uintn-identity.h" 1 3 4
+# 32 "/usr/include/x86_64-linux-gnu/bits/uintn-identity.h" 3 4
+static __inline __uint16_t
+__uint16_identity (__uint16_t __x)
+{
+  return __x;
+}
+
+static __inline __uint32_t
+__uint32_identity (__uint32_t __x)
+{
+  return __x;
+}
+
+static __inline __uint64_t
+__uint64_identity (__uint64_t __x)
+{
+  return __x;
+}
+# 37 "/usr/include/endian.h" 2 3 4
+# 177 "/usr/include/x86_64-linux-gnu/sys/types.h" 2 3 4
+
+
+# 1 "/usr/include/x86_64-linux-gnu/sys/select.h" 1 3 4
+# 30 "/usr/include/x86_64-linux-gnu/sys/select.h" 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/select.h" 1 3 4
+# 22 "/usr/include/x86_64-linux-gnu/bits/select.h" 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/wordsize.h" 1 3 4
+# 23 "/usr/include/x86_64-linux-gnu/bits/select.h" 2 3 4
+# 31 "/usr/include/x86_64-linux-gnu/sys/select.h" 2 3 4
+
+
+# 1 "/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h" 1 3 4
+
+
+
+# 1 "/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h" 1 3 4
+
+
+
+
+typedef struct
+{
+  unsigned long int __val[(1024 / (8 * sizeof (unsigned long int)))];
+} __sigset_t;
+# 5 "/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h" 2 3 4
+
+
+typedef __sigset_t sigset_t;
+# 34 "/usr/include/x86_64-linux-gnu/sys/select.h" 2 3 4
+
+
+
+# 1 "/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h" 1 3 4
+
+
+
+
+
+
+
+struct timeval
+{
+  __time_t tv_sec;
+  __suseconds_t tv_usec;
+};
+# 38 "/usr/include/x86_64-linux-gnu/sys/select.h" 2 3 4
+
+# 1 "/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h" 1 3 4
+# 10 "/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h" 3 4
+struct timespec
+{
+  __time_t tv_sec;
+
+
+
+  __syscall_slong_t tv_nsec;
+# 26 "/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h" 3 4
+};
+# 40 "/usr/include/x86_64-linux-gnu/sys/select.h" 2 3 4
+# 49 "/usr/include/x86_64-linux-gnu/sys/select.h" 3 4
+typedef long int __fd_mask;
+# 59 "/usr/include/x86_64-linux-gnu/sys/select.h" 3 4
+typedef struct
+  {
+
+
+
+    __fd_mask fds_bits[1024 / (8 * (int) sizeof (__fd_mask))];
+
+
+
+
+
+  } fd_set;
+
+
+
+
+
+
+typedef __fd_mask fd_mask;
+# 91 "/usr/include/x86_64-linux-gnu/sys/select.h" 3 4
+extern "C" {
+# 101 "/usr/include/x86_64-linux-gnu/sys/select.h" 3 4
+extern int select (int __nfds, fd_set *__restrict __readfds,
+     fd_set *__restrict __writefds,
+     fd_set *__restrict __exceptfds,
+     struct timeval *__restrict __timeout);
+# 113 "/usr/include/x86_64-linux-gnu/sys/select.h" 3 4
+extern int pselect (int __nfds, fd_set *__restrict __readfds,
+      fd_set *__restrict __writefds,
+      fd_set *__restrict __exceptfds,
+      const struct timespec *__restrict __timeout,
+      const __sigset_t *__restrict __sigmask);
+# 126 "/usr/include/x86_64-linux-gnu/sys/select.h" 3 4
+}
+# 180 "/usr/include/x86_64-linux-gnu/sys/types.h" 2 3 4
+
+
+
+
+
+typedef __blksize_t blksize_t;
+
+
+
+
+
+
+typedef __blkcnt_t blkcnt_t;
+
+
+
+typedef __fsblkcnt_t fsblkcnt_t;
+
+
+
+typedef __fsfilcnt_t fsfilcnt_t;
+# 219 "/usr/include/x86_64-linux-gnu/sys/types.h" 3 4
+typedef __blkcnt64_t blkcnt64_t;
+typedef __fsblkcnt64_t fsblkcnt64_t;
+typedef __fsfilcnt64_t fsfilcnt64_t;
+
+
+
+
+
+# 1 "/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h" 1 3 4
+# 23 "/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h" 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h" 1 3 4
+# 44 "/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h" 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h" 1 3 4
+# 21 "/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h" 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/wordsize.h" 1 3 4
+# 22 "/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h" 2 3 4
+# 45 "/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h" 2 3 4
+
+
+
+
+typedef struct __pthread_internal_list
+{
+  struct __pthread_internal_list *__prev;
+  struct __pthread_internal_list *__next;
+} __pthread_list_t;
+
+typedef struct __pthread_internal_slist
+{
+  struct __pthread_internal_slist *__next;
+} __pthread_slist_t;
+# 74 "/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h" 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/struct_mutex.h" 1 3 4
+# 22 "/usr/include/x86_64-linux-gnu/bits/struct_mutex.h" 3 4
+struct __pthread_mutex_s
+{
+  int __lock;
+  unsigned int __count;
+  int __owner;
+
+  unsigned int __nusers;
+
+
+
+  int __kind;
+
+  short __spins;
+  short __elision;
+  __pthread_list_t __list;
+# 53 "/usr/include/x86_64-linux-gnu/bits/struct_mutex.h" 3 4
+};
+# 75 "/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h" 2 3 4
+# 87 "/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h" 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h" 1 3 4
+# 23 "/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h" 3 4
+struct __pthread_rwlock_arch_t
+{
+  unsigned int __readers;
+  unsigned int __writers;
+  unsigned int __wrphase_futex;
+  unsigned int __writers_futex;
+  unsigned int __pad3;
+  unsigned int __pad4;
+
+  int __cur_writer;
+  int __shared;
+  signed char __rwelision;
+
+
+
+
+  unsigned char __pad1[7];
+
+
+  unsigned long int __pad2;
+
+
+  unsigned int __flags;
+# 55 "/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h" 3 4
+};
+# 88 "/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h" 2 3 4
+
+
+
+
+struct __pthread_cond_s
+{
+  __extension__ union
+  {
+    __extension__ unsigned long long int __wseq;
+    struct
+    {
+      unsigned int __low;
+      unsigned int __high;
+    } __wseq32;
+  };
+  __extension__ union
+  {
+    __extension__ unsigned long long int __g1_start;
+    struct
+    {
+      unsigned int __low;
+      unsigned int __high;
+    } __g1_start32;
+  };
+  unsigned int __g_refs[2] ;
+  unsigned int __g_size[2];
+  unsigned int __g1_orig_size;
+  unsigned int __wrefs;
+  unsigned int __g_signals[2];
+};
+# 24 "/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h" 2 3 4
+
+
+
+typedef unsigned long int pthread_t;
+
+
+
+
+typedef union
+{
+  char __size[4];
+  int __align;
+} pthread_mutexattr_t;
+
+
+
+
+typedef union
+{
+  char __size[4];
+  int __align;
+} pthread_condattr_t;
+
+
+
+typedef unsigned int pthread_key_t;
+
+
+
+typedef int pthread_once_t;
+
+
+union pthread_attr_t
+{
+  char __size[56];
+  long int __align;
+};
+
+typedef union pthread_attr_t pthread_attr_t;
+
+
+
+
+typedef union
+{
+  struct __pthread_mutex_s __data;
+  char __size[40];
+  long int __align;
+} pthread_mutex_t;
+
+
+typedef union
+{
+  struct __pthread_cond_s __data;
+  char __size[48];
+  __extension__ long long int __align;
+} pthread_cond_t;
+
+
+
+
+
+typedef union
+{
+  struct __pthread_rwlock_arch_t __data;
+  char __size[56];
+  long int __align;
+} pthread_rwlock_t;
+
+typedef union
+{
+  char __size[8];
+  long int __align;
+} pthread_rwlockattr_t;
+
+
+
+
+
+typedef volatile int pthread_spinlock_t;
+
+
+
+
+typedef union
+{
+  char __size[32];
+  long int __align;
+} pthread_barrier_t;
+
+typedef union
+{
+  char __size[4];
+  int __align;
+} pthread_barrierattr_t;
+# 228 "/usr/include/x86_64-linux-gnu/sys/types.h" 2 3 4
+
+
+}
+# 395 "/usr/include/stdlib.h" 2 3 4
+
+
+
+
+
+
+extern long int random (void) throw ();
+
+
+extern void srandom (unsigned int __seed) throw ();
+
+
+
+
+
+extern char *initstate (unsigned int __seed, char *__statebuf,
+   size_t __statelen) throw () __attribute__ ((__nonnull__ (2)));
+
+
+
+extern char *setstate (char *__statebuf) throw () __attribute__ ((__nonnull__ (1)));
+
+
+
+
+
+
+
+struct random_data
+  {
+    int32_t *fptr;
+    int32_t *rptr;
+    int32_t *state;
+    int rand_type;
+    int rand_deg;
+    int rand_sep;
+    int32_t *end_ptr;
+  };
+
+extern int random_r (struct random_data *__restrict __buf,
+       int32_t *__restrict __result) throw () __attribute__ ((__nonnull__ (1, 2)));
+
+extern int srandom_r (unsigned int __seed, struct random_data *__buf)
+     throw () __attribute__ ((__nonnull__ (2)));
+
+extern int initstate_r (unsigned int __seed, char *__restrict __statebuf,
+   size_t __statelen,
+   struct random_data *__restrict __buf)
+     throw () __attribute__ ((__nonnull__ (2, 4)));
+
+extern int setstate_r (char *__restrict __statebuf,
+         struct random_data *__restrict __buf)
+     throw () __attribute__ ((__nonnull__ (1, 2)));
+
+
+
+
+
+extern int rand (void) throw ();
+
+extern void srand (unsigned int __seed) throw ();
+
+
+
+extern int rand_r (unsigned int *__seed) throw ();
+
+
+
+
+
+
+
+extern double drand48 (void) throw ();
+extern double erand48 (unsigned short int __xsubi[3]) throw () __attribute__ ((__nonnull__ (1)));
+
+
+extern long int lrand48 (void) throw ();
+extern long int nrand48 (unsigned short int __xsubi[3])
+     throw () __attribute__ ((__nonnull__ (1)));
+
+
+extern long int mrand48 (void) throw ();
+extern long int jrand48 (unsigned short int __xsubi[3])
+     throw () __attribute__ ((__nonnull__ (1)));
+
+
+extern void srand48 (long int __seedval) throw ();
+extern unsigned short int *seed48 (unsigned short int __seed16v[3])
+     throw () __attribute__ ((__nonnull__ (1)));
+extern void lcong48 (unsigned short int __param[7]) throw () __attribute__ ((__nonnull__ (1)));
+
+
+
+
+
+struct drand48_data
+  {
+    unsigned short int __x[3];
+    unsigned short int __old_x[3];
+    unsigned short int __c;
+    unsigned short int __init;
+    __extension__ unsigned long long int __a;
+
+  };
+
+
+extern int drand48_r (struct drand48_data *__restrict __buffer,
+        double *__restrict __result) throw () __attribute__ ((__nonnull__ (1, 2)));
+extern int erand48_r (unsigned short int __xsubi[3],
+        struct drand48_data *__restrict __buffer,
+        double *__restrict __result) throw () __attribute__ ((__nonnull__ (1, 2)));
+
+
+extern int lrand48_r (struct drand48_data *__restrict __buffer,
+        long int *__restrict __result)
+     throw () __attribute__ ((__nonnull__ (1, 2)));
+extern int nrand48_r (unsigned short int __xsubi[3],
+        struct drand48_data *__restrict __buffer,
+        long int *__restrict __result)
+     throw () __attribute__ ((__nonnull__ (1, 2)));
+
+
+extern int mrand48_r (struct drand48_data *__restrict __buffer,
+        long int *__restrict __result)
+     throw () __attribute__ ((__nonnull__ (1, 2)));
+extern int jrand48_r (unsigned short int __xsubi[3],
+        struct drand48_data *__restrict __buffer,
+        long int *__restrict __result)
+     throw () __attribute__ ((__nonnull__ (1, 2)));
+
+
+extern int srand48_r (long int __seedval, struct drand48_data *__buffer)
+     throw () __attribute__ ((__nonnull__ (2)));
+
+extern int seed48_r (unsigned short int __seed16v[3],
+       struct drand48_data *__buffer) throw () __attribute__ ((__nonnull__ (1, 2)));
+
+extern int lcong48_r (unsigned short int __param[7],
+        struct drand48_data *__buffer)
+     throw () __attribute__ ((__nonnull__ (1, 2)));
+
+
+
+
+extern void *malloc (size_t __size) throw () __attribute__ ((__malloc__))
+     __attribute__ ((__alloc_size__ (1))) ;
+
+extern void *calloc (size_t __nmemb, size_t __size)
+     throw () __attribute__ ((__malloc__)) __attribute__ ((__alloc_size__ (1, 2))) ;
+
+
+
+
+
+
+extern void *realloc (void *__ptr, size_t __size)
+     throw () __attribute__ ((__warn_unused_result__)) __attribute__ ((__alloc_size__ (2)));
+
+
+
+
+
+
+
+extern void *reallocarray (void *__ptr, size_t __nmemb, size_t __size)
+     throw () __attribute__ ((__warn_unused_result__))
+     __attribute__ ((__alloc_size__ (2, 3)));
+
+
+
+extern void free (void *__ptr) throw ();
+
+
+# 1 "/usr/include/alloca.h" 1 3 4
+# 24 "/usr/include/alloca.h" 3 4
+# 1 "/usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h" 1 3 4
+# 25 "/usr/include/alloca.h" 2 3 4
+
+extern "C" {
+
+
+
+
+
+extern void *alloca (size_t __size) throw ();
+
+
+
+
+
+}
+# 569 "/usr/include/stdlib.h" 2 3 4
+
+
+
+
+
+extern void *valloc (size_t __size) throw () __attribute__ ((__malloc__))
+     __attribute__ ((__alloc_size__ (1))) ;
+
+
+
+
+extern int posix_memalign (void **__memptr, size_t __alignment, size_t __size)
+     throw () __attribute__ ((__nonnull__ (1))) ;
+
+
+
+
+extern void *aligned_alloc (size_t __alignment, size_t __size)
+     throw () __attribute__ ((__malloc__)) __attribute__ ((__alloc_size__ (2))) ;
+
+
+
+extern void abort (void) throw () __attribute__ ((__noreturn__));
+
+
+
+extern int atexit (void (*__func) (void)) throw () __attribute__ ((__nonnull__ (1)));
+
+
+
+
+extern "C++" int at_quick_exit (void (*__func) (void))
+     throw () __asm ("at_quick_exit") __attribute__ ((__nonnull__ (1)));
+# 610 "/usr/include/stdlib.h" 3 4
+extern int on_exit (void (*__func) (int __status, void *__arg), void *__arg)
+     throw () __attribute__ ((__nonnull__ (1)));
+
+
+
+
+
+extern void exit (int __status) throw () __attribute__ ((__noreturn__));
+
+
+
+
+
+extern void quick_exit (int __status) throw () __attribute__ ((__noreturn__));
+
+
+
+
+
+extern void _Exit (int __status) throw () __attribute__ ((__noreturn__));
+
+
+
+
+extern char *getenv (const char *__name) throw () __attribute__ ((__nonnull__ (1))) ;
+
+
+
+
+extern char *secure_getenv (const char *__name)
+     throw () __attribute__ ((__nonnull__ (1))) ;
+
+
+
+
+
+
+extern int putenv (char *__string) throw () __attribute__ ((__nonnull__ (1)));
+
+
+
+
+
+extern int setenv (const char *__name, const char *__value, int __replace)
+     throw () __attribute__ ((__nonnull__ (2)));
+
+
+extern int unsetenv (const char *__name) throw () __attribute__ ((__nonnull__ (1)));
+
+
+
+
+
+
+extern int clearenv (void) throw ();
+# 675 "/usr/include/stdlib.h" 3 4
+extern char *mktemp (char *__template) throw () __attribute__ ((__nonnull__ (1)));
+# 688 "/usr/include/stdlib.h" 3 4
+extern int mkstemp (char *__template) __attribute__ ((__nonnull__ (1))) ;
+# 698 "/usr/include/stdlib.h" 3 4
+extern int mkstemp64 (char *__template) __attribute__ ((__nonnull__ (1))) ;
+# 710 "/usr/include/stdlib.h" 3 4
+extern int mkstemps (char *__template, int __suffixlen) __attribute__ ((__nonnull__ (1))) ;
+# 720 "/usr/include/stdlib.h" 3 4
+extern int mkstemps64 (char *__template, int __suffixlen)
+     __attribute__ ((__nonnull__ (1))) ;
+# 731 "/usr/include/stdlib.h" 3 4
+extern char *mkdtemp (char *__template) throw () __attribute__ ((__nonnull__ (1))) ;
+# 742 "/usr/include/stdlib.h" 3 4
+extern int mkostemp (char *__template, int __flags) __attribute__ ((__nonnull__ (1))) ;
+# 752 "/usr/include/stdlib.h" 3 4
+extern int mkostemp64 (char *__template, int __flags) __attribute__ ((__nonnull__ (1))) ;
+# 762 "/usr/include/stdlib.h" 3 4
+extern int mkostemps (char *__template, int __suffixlen, int __flags)
+     __attribute__ ((__nonnull__ (1))) ;
+# 774 "/usr/include/stdlib.h" 3 4
+extern int mkostemps64 (char *__template, int __suffixlen, int __flags)
+     __attribute__ ((__nonnull__ (1))) ;
+# 784 "/usr/include/stdlib.h" 3 4
+extern int system (const char *__command) ;
+
+
+
+
+
+extern char *canonicalize_file_name (const char *__name)
+     throw () __attribute__ ((__nonnull__ (1))) ;
+# 800 "/usr/include/stdlib.h" 3 4
+extern char *realpath (const char *__restrict __name,
+         char *__restrict __resolved) throw () ;
+
+
+
+
+
+
+typedef int (*__compar_fn_t) (const void *, const void *);
+
+
+typedef __compar_fn_t comparison_fn_t;
+
+
+
+typedef int (*__compar_d_fn_t) (const void *, const void *, void *);
+
+
+
+
+extern void *bsearch (const void *__key, const void *__base,
+        size_t __nmemb, size_t __size, __compar_fn_t __compar)
+     __attribute__ ((__nonnull__ (1, 2, 5))) ;
+
+
+
+
+
+
+
+extern void qsort (void *__base, size_t __nmemb, size_t __size,
+     __compar_fn_t __compar) __attribute__ ((__nonnull__ (1, 4)));
+
+extern void qsort_r (void *__base, size_t __nmemb, size_t __size,
+       __compar_d_fn_t __compar, void *__arg)
+  __attribute__ ((__nonnull__ (1, 4)));
+
+
+
+
+extern int abs (int __x) throw () __attribute__ ((__const__)) ;
+extern long int labs (long int __x) throw () __attribute__ ((__const__)) ;
+
+
+__extension__ extern long long int llabs (long long int __x)
+     throw () __attribute__ ((__const__)) ;
+
+
+
+
+
+
+extern div_t div (int __numer, int __denom)
+     throw () __attribute__ ((__const__)) ;
+extern ldiv_t ldiv (long int __numer, long int __denom)
+     throw () __attribute__ ((__const__)) ;
+
+
+__extension__ extern lldiv_t lldiv (long long int __numer,
+        long long int __denom)
+     throw () __attribute__ ((__const__)) ;
+# 872 "/usr/include/stdlib.h" 3 4
+extern char *ecvt (double __value, int __ndigit, int *__restrict __decpt,
+     int *__restrict __sign) throw () __attribute__ ((__nonnull__ (3, 4))) ;
+
+
+
+
+extern char *fcvt (double __value, int __ndigit, int *__restrict __decpt,
+     int *__restrict __sign) throw () __attribute__ ((__nonnull__ (3, 4))) ;
+
+
+
+
+extern char *gcvt (double __value, int __ndigit, char *__buf)
+     throw () __attribute__ ((__nonnull__ (3))) ;
+
+
+
+
+extern char *qecvt (long double __value, int __ndigit,
+      int *__restrict __decpt, int *__restrict __sign)
+     throw () __attribute__ ((__nonnull__ (3, 4))) ;
+extern char *qfcvt (long double __value, int __ndigit,
+      int *__restrict __decpt, int *__restrict __sign)
+     throw () __attribute__ ((__nonnull__ (3, 4))) ;
+extern char *qgcvt (long double __value, int __ndigit, char *__buf)
+     throw () __attribute__ ((__nonnull__ (3))) ;
+
+
+
+
+extern int ecvt_r (double __value, int __ndigit, int *__restrict __decpt,
+     int *__restrict __sign, char *__restrict __buf,
+     size_t __len) throw () __attribute__ ((__nonnull__ (3, 4, 5)));
+extern int fcvt_r (double __value, int __ndigit, int *__restrict __decpt,
+     int *__restrict __sign, char *__restrict __buf,
+     size_t __len) throw () __attribute__ ((__nonnull__ (3, 4, 5)));
+
+extern int qecvt_r (long double __value, int __ndigit,
+      int *__restrict __decpt, int *__restrict __sign,
+      char *__restrict __buf, size_t __len)
+     throw () __attribute__ ((__nonnull__ (3, 4, 5)));
+extern int qfcvt_r (long double __value, int __ndigit,
+      int *__restrict __decpt, int *__restrict __sign,
+      char *__restrict __buf, size_t __len)
+     throw () __attribute__ ((__nonnull__ (3, 4, 5)));
+
+
+
+
+
+extern int mblen (const char *__s, size_t __n) throw ();
+
+
+extern int mbtowc (wchar_t *__restrict __pwc,
+     const char *__restrict __s, size_t __n) throw ();
+
+
+extern int wctomb (char *__s, wchar_t __wchar) throw ();
+
+
+
+extern size_t mbstowcs (wchar_t *__restrict __pwcs,
+   const char *__restrict __s, size_t __n) throw ();
+
+extern size_t wcstombs (char *__restrict __s,
+   const wchar_t *__restrict __pwcs, size_t __n)
+     throw ();
+
+
+
+
+
+
+
+extern int rpmatch (const char *__response) throw () __attribute__ ((__nonnull__ (1))) ;
+# 957 "/usr/include/stdlib.h" 3 4
+extern int getsubopt (char **__restrict __optionp,
+        char *const *__restrict __tokens,
+        char **__restrict __valuep)
+     throw () __attribute__ ((__nonnull__ (1, 2, 3))) ;
+
+
+
+
+
+
+
+extern int posix_openpt (int __oflag) ;
+
+
+
+
+
+
+
+extern int grantpt (int __fd) throw ();
+
+
+
+extern int unlockpt (int __fd) throw ();
+
+
+
+
+extern char *ptsname (int __fd) throw () ;
+
+
+
+
+
+
+extern int ptsname_r (int __fd, char *__buf, size_t __buflen)
+     throw () __attribute__ ((__nonnull__ (2)));
+
+
+extern int getpt (void);
+
+
+
+
+
+
+extern int getloadavg (double __loadavg[], int __nelem)
+     throw () __attribute__ ((__nonnull__ (1)));
+# 1013 "/usr/include/stdlib.h" 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/stdlib-float.h" 1 3 4
+# 1014 "/usr/include/stdlib.h" 2 3 4
+# 1023 "/usr/include/stdlib.h" 3 4
+}
+# 76 "/usr/include/c++/9/cstdlib" 2 3
+
+# 1 "/usr/include/c++/9/bits/std_abs.h" 1 3
+# 33 "/usr/include/c++/9/bits/std_abs.h" 3
+       
+# 34 "/usr/include/c++/9/bits/std_abs.h" 3
+# 46 "/usr/include/c++/9/bits/std_abs.h" 3
+extern "C++"
+{
+namespace std __attribute__ ((__visibility__ ("default")))
+{
+
+
+  using ::abs;
+
+
+  inline long
+  abs(long __i) { return __builtin_labs(__i); }
+
+
+
+  inline long long
+  abs(long long __x) { return __builtin_llabs (__x); }
+# 70 "/usr/include/c++/9/bits/std_abs.h" 3
+  inline constexpr double
+  abs(double __x)
+  { return __builtin_fabs(__x); }
+
+  inline constexpr float
+  abs(float __x)
+  { return __builtin_fabsf(__x); }
+
+  inline constexpr long double
+  abs(long double __x)
+  { return __builtin_fabsl(__x); }
+
+
+
+  inline constexpr __int128
+  abs(__int128 __x) { return __x >= 0 ? __x : -__x; }
+# 101 "/usr/include/c++/9/bits/std_abs.h" 3
+  inline constexpr
+  __float128
+  abs(__float128 __x)
+  { return __x < 0 ? -__x : __x; }
+
+
+
+}
+}
+# 78 "/usr/include/c++/9/cstdlib" 2 3
+# 121 "/usr/include/c++/9/cstdlib" 3
+extern "C++"
+{
+namespace std __attribute__ ((__visibility__ ("default")))
+{
+
+
+  using ::div_t;
+  using ::ldiv_t;
+
+  using ::abort;
+
+
+
+  using ::atexit;
+
+
+  using ::at_quick_exit;
+
+
+  using ::atof;
+  using ::atoi;
+  using ::atol;
+  using ::bsearch;
+  using ::calloc;
+  using ::div;
+  using ::exit;
+  using ::free;
+  using ::getenv;
+  using ::labs;
+  using ::ldiv;
+  using ::malloc;
+
+  using ::mblen;
+  using ::mbstowcs;
+  using ::mbtowc;
+
+  using ::qsort;
+
+
+  using ::quick_exit;
+
+
+  using ::rand;
+  using ::realloc;
+  using ::srand;
+  using ::strtod;
+  using ::strtol;
+  using ::strtoul;
+  using ::system;
+
+  using ::wcstombs;
+  using ::wctomb;
+
+
+
+  inline ldiv_t
+  div(long __i, long __j) { return ldiv(__i, __j); }
+
+
+
+
+}
+# 195 "/usr/include/c++/9/cstdlib" 3
+namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
+{
+
+
+
+  using ::lldiv_t;
+
+
+
+
+
+  using ::_Exit;
+
+
+
+  using ::llabs;
+
+  inline lldiv_t
+  div(long long __n, long long __d)
+  { lldiv_t __q; __q.quot = __n / __d; __q.rem = __n % __d; return __q; }
+
+  using ::lldiv;
+# 227 "/usr/include/c++/9/cstdlib" 3
+  using ::atoll;
+  using ::strtoll;
+  using ::strtoull;
+
+  using ::strtof;
+  using ::strtold;
+
+
+}
+
+namespace std
+{
+
+  using ::__gnu_cxx::lldiv_t;
+
+  using ::__gnu_cxx::_Exit;
+
+  using ::__gnu_cxx::llabs;
+  using ::__gnu_cxx::div;
+  using ::__gnu_cxx::lldiv;
+
+  using ::__gnu_cxx::atoll;
+  using ::__gnu_cxx::strtof;
+  using ::__gnu_cxx::strtoll;
+  using ::__gnu_cxx::strtoull;
+  using ::__gnu_cxx::strtold;
+}
+
+
+
+}
+# 37 "/usr/include/c++/9/stdlib.h" 2 3
+
+using std::abort;
+using std::atexit;
+using std::exit;
+
+
+  using std::at_quick_exit;
+
+
+  using std::quick_exit;
+
+
+
+
+using std::div_t;
+using std::ldiv_t;
+
+using std::abs;
+using std::atof;
+using std::atoi;
+using std::atol;
+using std::bsearch;
+using std::calloc;
+using std::div;
+using std::free;
+using std::getenv;
+using std::labs;
+using std::ldiv;
+using std::malloc;
+
+using std::mblen;
+using std::mbstowcs;
+using std::mbtowc;
+
+using std::qsort;
+using std::rand;
+using std::realloc;
+using std::srand;
+using std::strtod;
+using std::strtol;
+using std::strtoul;
+using std::system;
+
+using std::wcstombs;
+using std::wctomb;
+# 37 "/usr/local/include/FL/fl_utf8.h" 2 3
+# 62 "/usr/local/include/FL/fl_utf8.h" 3
+# 1 "/usr/include/x86_64-linux-gnu/sys/stat.h" 1 3 4
+# 99 "/usr/include/x86_64-linux-gnu/sys/stat.h" 3 4
+extern "C" {
+
+# 1 "/usr/include/x86_64-linux-gnu/bits/stat.h" 1 3 4
+# 46 "/usr/include/x86_64-linux-gnu/bits/stat.h" 3 4
+struct stat
+  {
+    __dev_t st_dev;
+
+
+
+
+    __ino_t st_ino;
+
+
+
+
+
+
+
+    __nlink_t st_nlink;
+    __mode_t st_mode;
+
+    __uid_t st_uid;
+    __gid_t st_gid;
+
+    int __pad0;
+
+    __dev_t st_rdev;
+
+
+
+
+    __off_t st_size;
+
+
+
+    __blksize_t st_blksize;
+
+    __blkcnt_t st_blocks;
+# 91 "/usr/include/x86_64-linux-gnu/bits/stat.h" 3 4
+    struct timespec st_atim;
+    struct timespec st_mtim;
+    struct timespec st_ctim;
+# 106 "/usr/include/x86_64-linux-gnu/bits/stat.h" 3 4
+    __syscall_slong_t __glibc_reserved[3];
+# 115 "/usr/include/x86_64-linux-gnu/bits/stat.h" 3 4
+  };
+
+
+
+struct stat64
+  {
+    __dev_t st_dev;
+
+    __ino64_t st_ino;
+    __nlink_t st_nlink;
+    __mode_t st_mode;
+
+
+
+
+
+
+    __uid_t st_uid;
+    __gid_t st_gid;
+
+    int __pad0;
+    __dev_t st_rdev;
+    __off_t st_size;
+
+
+
+
+
+    __blksize_t st_blksize;
+    __blkcnt64_t st_blocks;
+
+
+
+
+
+
+
+    struct timespec st_atim;
+    struct timespec st_mtim;
+    struct timespec st_ctim;
+# 164 "/usr/include/x86_64-linux-gnu/bits/stat.h" 3 4
+    __syscall_slong_t __glibc_reserved[3];
+
+
+
+  };
+# 102 "/usr/include/x86_64-linux-gnu/sys/stat.h" 2 3 4
+# 205 "/usr/include/x86_64-linux-gnu/sys/stat.h" 3 4
+extern int stat (const char *__restrict __file,
+   struct stat *__restrict __buf) throw () __attribute__ ((__nonnull__ (1, 2)));
+
+
+
+extern int fstat (int __fd, struct stat *__buf) throw () __attribute__ ((__nonnull__ (2)));
+# 224 "/usr/include/x86_64-linux-gnu/sys/stat.h" 3 4
+extern int stat64 (const char *__restrict __file,
+     struct stat64 *__restrict __buf) throw () __attribute__ ((__nonnull__ (1, 2)));
+extern int fstat64 (int __fd, struct stat64 *__buf) throw () __attribute__ ((__nonnull__ (2)));
+
+
+
+
+
+
+
+extern int fstatat (int __fd, const char *__restrict __file,
+      struct stat *__restrict __buf, int __flag)
+     throw () __attribute__ ((__nonnull__ (2, 3)));
+# 249 "/usr/include/x86_64-linux-gnu/sys/stat.h" 3 4
+extern int fstatat64 (int __fd, const char *__restrict __file,
+        struct stat64 *__restrict __buf, int __flag)
+     throw () __attribute__ ((__nonnull__ (2, 3)));
+
+
+
+
+
+
+
+extern int lstat (const char *__restrict __file,
+    struct stat *__restrict __buf) throw () __attribute__ ((__nonnull__ (1, 2)));
+# 272 "/usr/include/x86_64-linux-gnu/sys/stat.h" 3 4
+extern int lstat64 (const char *__restrict __file,
+      struct stat64 *__restrict __buf)
+     throw () __attribute__ ((__nonnull__ (1, 2)));
+
+
+
+
+
+extern int chmod (const char *__file, __mode_t __mode)
+     throw () __attribute__ ((__nonnull__ (1)));
+
+
+
+
+
+extern int lchmod (const char *__file, __mode_t __mode)
+     throw () __attribute__ ((__nonnull__ (1)));
+
+
+
+
+extern int fchmod (int __fd, __mode_t __mode) throw ();
+
+
+
+
+
+extern int fchmodat (int __fd, const char *__file, __mode_t __mode,
+       int __flag)
+     throw () __attribute__ ((__nonnull__ (2))) ;
+
+
+
+
+
+
+extern __mode_t umask (__mode_t __mask) throw ();
+
+
+
+
+extern __mode_t getumask (void) throw ();
+
+
+
+extern int mkdir (const char *__path, __mode_t __mode)
+     throw () __attribute__ ((__nonnull__ (1)));
+
+
+
+
+
+extern int mkdirat (int __fd, const char *__path, __mode_t __mode)
+     throw () __attribute__ ((__nonnull__ (2)));
+
+
+
+
+
+
+extern int mknod (const char *__path, __mode_t __mode, __dev_t __dev)
+     throw () __attribute__ ((__nonnull__ (1)));
+
+
+
+
+
+extern int mknodat (int __fd, const char *__path, __mode_t __mode,
+      __dev_t __dev) throw () __attribute__ ((__nonnull__ (2)));
+
+
+
+
+
+extern int mkfifo (const char *__path, __mode_t __mode)
+     throw () __attribute__ ((__nonnull__ (1)));
+
+
+
+
+
+extern int mkfifoat (int __fd, const char *__path, __mode_t __mode)
+     throw () __attribute__ ((__nonnull__ (2)));
+
+
+
+
+
+extern int utimensat (int __fd, const char *__path,
+        const struct timespec __times[2],
+        int __flags)
+     throw () __attribute__ ((__nonnull__ (2)));
+
+
+
+
+extern int futimens (int __fd, const struct timespec __times[2]) throw ();
+# 395 "/usr/include/x86_64-linux-gnu/sys/stat.h" 3 4
+extern int __fxstat (int __ver, int __fildes, struct stat *__stat_buf)
+     throw () __attribute__ ((__nonnull__ (3)));
+extern int __xstat (int __ver, const char *__filename,
+      struct stat *__stat_buf) throw () __attribute__ ((__nonnull__ (2, 3)));
+extern int __lxstat (int __ver, const char *__filename,
+       struct stat *__stat_buf) throw () __attribute__ ((__nonnull__ (2, 3)));
+extern int __fxstatat (int __ver, int __fildes, const char *__filename,
+         struct stat *__stat_buf, int __flag)
+     throw () __attribute__ ((__nonnull__ (3, 4)));
+# 428 "/usr/include/x86_64-linux-gnu/sys/stat.h" 3 4
+extern int __fxstat64 (int __ver, int __fildes, struct stat64 *__stat_buf)
+     throw () __attribute__ ((__nonnull__ (3)));
+extern int __xstat64 (int __ver, const char *__filename,
+        struct stat64 *__stat_buf) throw () __attribute__ ((__nonnull__ (2, 3)));
+extern int __lxstat64 (int __ver, const char *__filename,
+         struct stat64 *__stat_buf) throw () __attribute__ ((__nonnull__ (2, 3)));
+extern int __fxstatat64 (int __ver, int __fildes, const char *__filename,
+    struct stat64 *__stat_buf, int __flag)
+     throw () __attribute__ ((__nonnull__ (3, 4)));
+
+extern int __xmknod (int __ver, const char *__path, __mode_t __mode,
+       __dev_t *__dev) throw () __attribute__ ((__nonnull__ (2, 4)));
+
+extern int __xmknodat (int __ver, int __fd, const char *__path,
+         __mode_t __mode, __dev_t *__dev)
+     throw () __attribute__ ((__nonnull__ (3, 5)));
+
+
+# 1 "/usr/include/x86_64-linux-gnu/bits/statx.h" 1 3 4
+# 31 "/usr/include/x86_64-linux-gnu/bits/statx.h" 3 4
+# 1 "/usr/include/linux/stat.h" 1 3 4
+
+
+
+
+# 1 "/usr/include/linux/types.h" 1 3 4
+
+
+
+
+# 1 "/usr/include/x86_64-linux-gnu/asm/types.h" 1 3 4
+# 1 "/usr/include/asm-generic/types.h" 1 3 4
+
+
+
+
+
+
+# 1 "/usr/include/asm-generic/int-ll64.h" 1 3 4
+# 12 "/usr/include/asm-generic/int-ll64.h" 3 4
+# 1 "/usr/include/x86_64-linux-gnu/asm/bitsperlong.h" 1 3 4
+# 11 "/usr/include/x86_64-linux-gnu/asm/bitsperlong.h" 3 4
+# 1 "/usr/include/asm-generic/bitsperlong.h" 1 3 4
+# 12 "/usr/include/x86_64-linux-gnu/asm/bitsperlong.h" 2 3 4
+# 13 "/usr/include/asm-generic/int-ll64.h" 2 3 4
+
+
+
+
+
+
+
+typedef __signed__ char __s8;
+typedef unsigned char __u8;
+
+typedef __signed__ short __s16;
+typedef unsigned short __u16;
+
+typedef __signed__ int __s32;
+typedef unsigned int __u32;
+
+
+__extension__ typedef __signed__ long long __s64;
+__extension__ typedef unsigned long long __u64;
+# 8 "/usr/include/asm-generic/types.h" 2 3 4
+# 1 "/usr/include/x86_64-linux-gnu/asm/types.h" 2 3 4
+# 6 "/usr/include/linux/types.h" 2 3 4
+
+
+
+# 1 "/usr/include/linux/posix_types.h" 1 3 4
+
+
+
+
+# 1 "/usr/include/linux/stddef.h" 1 3 4
+# 6 "/usr/include/linux/posix_types.h" 2 3 4
+# 25 "/usr/include/linux/posix_types.h" 3 4
+typedef struct {
+ unsigned long fds_bits[1024 / (8 * sizeof(long))];
+} __kernel_fd_set;
+
+
+typedef void (*__kernel_sighandler_t)(int);
+
+
+typedef int __kernel_key_t;
+typedef int __kernel_mqd_t;
+
+# 1 "/usr/include/x86_64-linux-gnu/asm/posix_types.h" 1 3 4
+
+
+
+
+
+
+# 1 "/usr/include/x86_64-linux-gnu/asm/posix_types_64.h" 1 3 4
+# 11 "/usr/include/x86_64-linux-gnu/asm/posix_types_64.h" 3 4
+typedef unsigned short __kernel_old_uid_t;
+typedef unsigned short __kernel_old_gid_t;
+
+
+typedef unsigned long __kernel_old_dev_t;
+
+
+# 1 "/usr/include/asm-generic/posix_types.h" 1 3 4
+# 15 "/usr/include/asm-generic/posix_types.h" 3 4
+typedef long __kernel_long_t;
+typedef unsigned long __kernel_ulong_t;
+
+
+
+typedef __kernel_ulong_t __kernel_ino_t;
+
+
+
+typedef unsigned int __kernel_mode_t;
+
+
+
+typedef int __kernel_pid_t;
+
+
+
+typedef int __kernel_ipc_pid_t;
+
+
+
+typedef unsigned int __kernel_uid_t;
+typedef unsigned int __kernel_gid_t;
+
+
+
+typedef __kernel_long_t __kernel_suseconds_t;
+
+
+
+typedef int __kernel_daddr_t;
+
+
+
+typedef unsigned int __kernel_uid32_t;
+typedef unsigned int __kernel_gid32_t;
+# 72 "/usr/include/asm-generic/posix_types.h" 3 4
+typedef __kernel_ulong_t __kernel_size_t;
+typedef __kernel_long_t __kernel_ssize_t;
+typedef __kernel_long_t __kernel_ptrdiff_t;
+
+
+
+
+typedef struct {
+ int val[2];
+} __kernel_fsid_t;
+
+
+
+
+
+typedef __kernel_long_t __kernel_off_t;
+typedef long long __kernel_loff_t;
+typedef __kernel_long_t __kernel_time_t;
+typedef long long __kernel_time64_t;
+typedef __kernel_long_t __kernel_clock_t;
+typedef int __kernel_timer_t;
+typedef int __kernel_clockid_t;
+typedef char * __kernel_caddr_t;
+typedef unsigned short __kernel_uid16_t;
+typedef unsigned short __kernel_gid16_t;
+# 19 "/usr/include/x86_64-linux-gnu/asm/posix_types_64.h" 2 3 4
+# 8 "/usr/include/x86_64-linux-gnu/asm/posix_types.h" 2 3 4
+# 37 "/usr/include/linux/posix_types.h" 2 3 4
+# 10 "/usr/include/linux/types.h" 2 3 4
+# 24 "/usr/include/linux/types.h" 3 4
+typedef __u16 __le16;
+typedef __u16 __be16;
+typedef __u32 __le32;
+typedef __u32 __be32;
+typedef __u64 __le64;
+typedef __u64 __be64;
+
+typedef __u16 __sum16;
+typedef __u32 __wsum;
+# 47 "/usr/include/linux/types.h" 3 4
+typedef unsigned __poll_t;
+# 6 "/usr/include/linux/stat.h" 2 3 4
+# 56 "/usr/include/linux/stat.h" 3 4
+struct statx_timestamp {
+ __s64 tv_sec;
+ __u32 tv_nsec;
+ __s32 __reserved;
+};
+# 99 "/usr/include/linux/stat.h" 3 4
+struct statx {
+
+ __u32 stx_mask;
+ __u32 stx_blksize;
+ __u64 stx_attributes;
+
+ __u32 stx_nlink;
+ __u32 stx_uid;
+ __u32 stx_gid;
+ __u16 stx_mode;
+ __u16 __spare0[1];
+
+ __u64 stx_ino;
+ __u64 stx_size;
+ __u64 stx_blocks;
+ __u64 stx_attributes_mask;
+
+ struct statx_timestamp stx_atime;
+ struct statx_timestamp stx_btime;
+ struct statx_timestamp stx_ctime;
+ struct statx_timestamp stx_mtime;
+
+ __u32 stx_rdev_major;
+ __u32 stx_rdev_minor;
+ __u32 stx_dev_major;
+ __u32 stx_dev_minor;
+
+ __u64 __spare2[14];
+
+};
+# 32 "/usr/include/x86_64-linux-gnu/bits/statx.h" 2 3 4
+
+
+
+
+
+
+
+# 1 "/usr/include/x86_64-linux-gnu/bits/statx-generic.h" 1 3 4
+# 25 "/usr/include/x86_64-linux-gnu/bits/statx-generic.h" 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h" 1 3 4
+# 26 "/usr/include/x86_64-linux-gnu/bits/statx-generic.h" 2 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/types/struct_statx.h" 1 3 4
+# 27 "/usr/include/x86_64-linux-gnu/bits/statx-generic.h" 2 3 4
+# 53 "/usr/include/x86_64-linux-gnu/bits/statx-generic.h" 3 4
+extern "C" {
+
+
+int statx (int __dirfd, const char *__restrict __path, int __flags,
+           unsigned int __mask, struct statx *__restrict __buf)
+  throw () __attribute__ ((__nonnull__ (2, 5)));
+
+}
+# 39 "/usr/include/x86_64-linux-gnu/bits/statx.h" 2 3 4
+# 447 "/usr/include/x86_64-linux-gnu/sys/stat.h" 2 3 4
+# 534 "/usr/include/x86_64-linux-gnu/sys/stat.h" 3 4
+}
+# 63 "/usr/local/include/FL/fl_utf8.h" 2 3
+
+
+
+
+# 1 "/usr/include/locale.h" 1 3 4
+# 28 "/usr/include/locale.h" 3 4
+# 1 "/usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h" 1 3 4
+# 29 "/usr/include/locale.h" 2 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/locale.h" 1 3 4
+# 30 "/usr/include/locale.h" 2 3 4
+
+extern "C" {
+# 51 "/usr/include/locale.h" 3 4
+struct lconv
+{
+
+
+  char *decimal_point;
+  char *thousands_sep;
+
+
+
+
+
+  char *grouping;
+
+
+
+
+
+  char *int_curr_symbol;
+  char *currency_symbol;
+  char *mon_decimal_point;
+  char *mon_thousands_sep;
+  char *mon_grouping;
+  char *positive_sign;
+  char *negative_sign;
+  char int_frac_digits;
+  char frac_digits;
+
+  char p_cs_precedes;
+
+  char p_sep_by_space;
+
+  char n_cs_precedes;
+
+  char n_sep_by_space;
+
+
+
+
+
+
+  char p_sign_posn;
+  char n_sign_posn;
+
+
+  char int_p_cs_precedes;
+
+  char int_p_sep_by_space;
+
+  char int_n_cs_precedes;
+
+  char int_n_sep_by_space;
+
+
+
+
+
+
+  char int_p_sign_posn;
+  char int_n_sign_posn;
+# 118 "/usr/include/locale.h" 3 4
+};
+
+
+
+extern char *setlocale (int __category, const char *__locale) throw ();
+
+
+extern struct lconv *localeconv (void) throw ();
+# 141 "/usr/include/locale.h" 3 4
+extern locale_t newlocale (int __category_mask, const char *__locale,
+      locale_t __base) throw ();
+# 176 "/usr/include/locale.h" 3 4
+extern locale_t duplocale (locale_t __dataset) throw ();
+
+
+
+extern void freelocale (locale_t __dataset) throw ();
+
+
+
+
+
+
+extern locale_t uselocale (locale_t __dataset) throw ();
+
+
+
+
+
+
+
+}
+# 68 "/usr/local/include/FL/fl_utf8.h" 2 3
+
+
+
+
+extern "C" {
+# 87 "/usr/local/include/FL/fl_utf8.h" 3
+__attribute__ ((visibility ("default"))) int fl_utf8bytes(unsigned ucs);
+
+
+__attribute__ ((visibility ("default"))) int fl_utf8len(char c);
+
+
+__attribute__ ((visibility ("default"))) int fl_utf8len1(char c);
+
+
+__attribute__ ((visibility ("default"))) int fl_utf_nb_char(const unsigned char *buf, int len);
+
+
+__attribute__ ((visibility ("default"))) unsigned fl_utf8decode(const char* p, const char* end, int* len);
+
+
+__attribute__ ((visibility ("default"))) int fl_utf8encode(unsigned ucs, char* buf);
+
+
+__attribute__ ((visibility ("default"))) const char* fl_utf8fwd(const char* p, const char* start, const char* end);
+
+
+__attribute__ ((visibility ("default"))) const char* fl_utf8back(const char* p, const char* start, const char* end);
+
+
+__attribute__ ((visibility ("default"))) unsigned fl_ucs_to_Utf16(const unsigned ucs, unsigned short *dst, const unsigned dstlen);
+
+
+__attribute__ ((visibility ("default"))) unsigned fl_utf8toUtf16(const char* src, unsigned srclen, unsigned short* dst, unsigned dstlen);
+
+
+__attribute__ ((visibility ("default"))) unsigned fl_utf8towc(const char *src, unsigned srclen, wchar_t *dst, unsigned dstlen);
+
+
+__attribute__ ((visibility ("default"))) unsigned fl_utf8fromwc(char *dst, unsigned dstlen, const wchar_t *src, unsigned srclen);
+
+
+__attribute__ ((visibility ("default"))) unsigned fl_utf8toa (const char *src, unsigned srclen, char *dst, unsigned dstlen);
+
+
+__attribute__ ((visibility ("default"))) unsigned fl_utf8froma (char *dst, unsigned dstlen, const char *src, unsigned srclen);
+
+
+__attribute__ ((visibility ("default"))) int fl_utf8locale(void);
+
+
+
+
+__attribute__ ((visibility ("default"))) int fl_utf8test(const char *src, unsigned len);
+
+
+
+__attribute__ ((visibility ("default"))) int fl_wcwidth_(unsigned int ucs);
+
+
+
+
+__attribute__ ((visibility ("default"))) int fl_wcwidth(const char *src);
+
+
+__attribute__ ((visibility ("default"))) unsigned int fl_nonspacing(unsigned int ucs);
+
+
+__attribute__ ((visibility ("default"))) unsigned fl_utf8to_mb(const char *src, unsigned srclen, char *dst, unsigned dstlen);
+
+__attribute__ ((visibility ("default"))) char* fl_utf2mbcs(const char *src);
+
+
+__attribute__ ((visibility ("default"))) unsigned fl_utf8from_mb(char *dst, unsigned dstlen, const char *src, unsigned srclen);
+# 171 "/usr/local/include/FL/fl_utf8.h" 3
+__attribute__ ((visibility ("default"))) int fl_utf_strncasecmp(const char *s1, const char *s2, int n);
+
+
+__attribute__ ((visibility ("default"))) int fl_utf_strcasecmp(const char *s1, const char *s2);
+
+
+__attribute__ ((visibility ("default"))) int fl_tolower(unsigned int ucs);
+
+
+__attribute__ ((visibility ("default"))) int fl_toupper(unsigned int ucs);
+
+
+__attribute__ ((visibility ("default"))) int fl_utf_tolower(const unsigned char *str, int len, char *buf);
+
+
+__attribute__ ((visibility ("default"))) int fl_utf_toupper(const unsigned char *str, int len, char *buf);
+
+
+__attribute__ ((visibility ("default"))) int fl_chmod(const char* f, int mode);
+
+
+__attribute__ ((visibility ("default"))) int fl_access(const char* f, int mode);
+
+
+__attribute__ ((visibility ("default"))) int fl_stat( const char *path, struct stat *buffer );
+
+
+__attribute__ ((visibility ("default"))) char* fl_getcwd( char *buf, int maxlen);
+
+
+__attribute__ ((visibility ("default"))) FILE *fl_fopen(const char *f, const char *mode);
+
+
+__attribute__ ((visibility ("default"))) int fl_system(const char* f);
+
+
+__attribute__ ((visibility ("default"))) int fl_execvp(const char *file, char *const *argv);
+
+
+__attribute__ ((visibility ("default"))) int fl_open(const char* f, int o, ...);
+
+
+__attribute__ ((visibility ("default"))) int fl_unlink(const char *f);
+
+
+__attribute__ ((visibility ("default"))) int fl_rmdir(const char *f);
+
+
+__attribute__ ((visibility ("default"))) char* fl_getenv(const char *name);
+
+
+__attribute__ ((visibility ("default"))) int fl_mkdir(const char* f, int mode);
+
+
+__attribute__ ((visibility ("default"))) int fl_rename(const char* f, const char *t);
+
+
+
+__attribute__ ((visibility ("default"))) void fl_make_path_for_file( const char *path );
+
+
+__attribute__ ((visibility ("default"))) char fl_make_path( const char *path );
+
+
+
+
+
+
+
+}
+# 33 "/usr/local/include/FL/Fl.H" 2 3
+# 1 "/usr/local/include/FL/Enumerations.H" 1 3
+# 44 "/usr/local/include/FL/Enumerations.H" 3
+# 1 "/usr/local/include/FL/abi-version.h" 1 3
+# 45 "/usr/local/include/FL/Enumerations.H" 2 3
+# 219 "/usr/local/include/FL/Enumerations.H" 3
+enum Fl_Event {
+
+  FL_NO_EVENT = 0,
+# 234 "/usr/local/include/FL/Enumerations.H" 3
+  FL_PUSH = 1,
+
+
+
+
+
+
+
+  FL_RELEASE = 2,
+# 251 "/usr/local/include/FL/Enumerations.H" 3
+  FL_ENTER = 3,
+
+
+
+
+
+  FL_LEAVE = 4,
+# 266 "/usr/local/include/FL/Enumerations.H" 3
+  FL_DRAG = 5,
+# 281 "/usr/local/include/FL/Enumerations.H" 3
+  FL_FOCUS = 6,
+
+
+
+
+  FL_UNFOCUS = 7,
+# 308 "/usr/local/include/FL/Enumerations.H" 3
+  FL_KEYDOWN = 8,
+
+
+
+
+  FL_KEYBOARD = 8,
+
+
+
+
+  FL_KEYUP = 9,
+
+
+
+
+
+
+  FL_CLOSE = 10,
+
+
+
+
+
+
+
+  FL_MOVE = 11,
+# 347 "/usr/local/include/FL/Enumerations.H" 3
+  FL_SHORTCUT = 12,
+
+
+
+
+
+
+  FL_DEACTIVATE = 13,
+
+
+
+
+  FL_ACTIVATE = 14,
+
+
+
+
+
+
+
+  FL_HIDE = 15,
+
+
+
+
+
+
+
+  FL_SHOW = 16,
+
+
+
+
+
+  FL_PASTE = 17,
+
+
+
+
+
+
+  FL_SELECTIONCLEAR = 18,
+
+
+
+
+  FL_MOUSEWHEEL = 19,
+
+
+
+
+
+  FL_DND_ENTER = 20,
+
+
+
+
+
+  FL_DND_DRAG = 21,
+
+
+
+  FL_DND_LEAVE = 22,
+
+
+
+
+
+  FL_DND_RELEASE = 23,
+
+
+
+  FL_SCREEN_CONFIGURATION_CHANGED = 24,
+
+
+  FL_FULLSCREEN = 25,
+
+
+
+
+  FL_ZOOM_GESTURE = 26
+};
+# 437 "/usr/local/include/FL/Enumerations.H" 3
+enum Fl_When {
+  FL_WHEN_NEVER = 0,
+  FL_WHEN_CHANGED = 1,
+  FL_WHEN_NOT_CHANGED = 2,
+  FL_WHEN_RELEASE = 4,
+  FL_WHEN_RELEASE_ALWAYS= 6,
+  FL_WHEN_ENTER_KEY = 8,
+  FL_WHEN_ENTER_KEY_ALWAYS=10,
+  FL_WHEN_ENTER_KEY_CHANGED=11
+};
+# 601 "/usr/local/include/FL/Enumerations.H" 3
+enum Fl_Boxtype {
+
+  FL_NO_BOX = 0,
+  FL_FLAT_BOX,
+  FL_UP_BOX,
+  FL_DOWN_BOX,
+  FL_UP_FRAME,
+  FL_DOWN_FRAME,
+  FL_THIN_UP_BOX,
+  FL_THIN_DOWN_BOX,
+  FL_THIN_UP_FRAME,
+  FL_THIN_DOWN_FRAME,
+  FL_ENGRAVED_BOX,
+  FL_EMBOSSED_BOX,
+  FL_ENGRAVED_FRAME,
+  FL_EMBOSSED_FRAME,
+  FL_BORDER_BOX,
+  _FL_SHADOW_BOX,
+  FL_BORDER_FRAME,
+  _FL_SHADOW_FRAME,
+  _FL_ROUNDED_BOX,
+  _FL_RSHADOW_BOX,
+  _FL_ROUNDED_FRAME,
+  _FL_RFLAT_BOX,
+  _FL_ROUND_UP_BOX,
+  _FL_ROUND_DOWN_BOX,
+  _FL_DIAMOND_UP_BOX,
+  _FL_DIAMOND_DOWN_BOX,
+  _FL_OVAL_BOX,
+  _FL_OSHADOW_BOX,
+  _FL_OVAL_FRAME,
+  _FL_OFLAT_BOX,
+  _FL_PLASTIC_UP_BOX,
+  _FL_PLASTIC_DOWN_BOX,
+  _FL_PLASTIC_UP_FRAME,
+  _FL_PLASTIC_DOWN_FRAME,
+  _FL_PLASTIC_THIN_UP_BOX,
+  _FL_PLASTIC_THIN_DOWN_BOX,
+  _FL_PLASTIC_ROUND_UP_BOX,
+  _FL_PLASTIC_ROUND_DOWN_BOX,
+  _FL_GTK_UP_BOX,
+  _FL_GTK_DOWN_BOX,
+  _FL_GTK_UP_FRAME,
+  _FL_GTK_DOWN_FRAME,
+  _FL_GTK_THIN_UP_BOX,
+  _FL_GTK_THIN_DOWN_BOX,
+  _FL_GTK_THIN_UP_FRAME,
+  _FL_GTK_THIN_DOWN_FRAME,
+  _FL_GTK_ROUND_UP_BOX,
+  _FL_GTK_ROUND_DOWN_BOX,
+  _FL_GLEAM_UP_BOX,
+  _FL_GLEAM_DOWN_BOX,
+  _FL_GLEAM_UP_FRAME,
+  _FL_GLEAM_DOWN_FRAME,
+  _FL_GLEAM_THIN_UP_BOX,
+  _FL_GLEAM_THIN_DOWN_BOX,
+  _FL_GLEAM_ROUND_UP_BOX,
+  _FL_GLEAM_ROUND_DOWN_BOX,
+  FL_FREE_BOXTYPE
+};
+extern __attribute__ ((visibility ("default"))) Fl_Boxtype fl_define_FL_ROUND_UP_BOX();
+
+
+extern __attribute__ ((visibility ("default"))) Fl_Boxtype fl_define_FL_SHADOW_BOX();
+
+
+extern __attribute__ ((visibility ("default"))) Fl_Boxtype fl_define_FL_ROUNDED_BOX();
+
+
+extern __attribute__ ((visibility ("default"))) Fl_Boxtype fl_define_FL_RFLAT_BOX();
+
+extern __attribute__ ((visibility ("default"))) Fl_Boxtype fl_define_FL_RSHADOW_BOX();
+
+extern __attribute__ ((visibility ("default"))) Fl_Boxtype fl_define_FL_DIAMOND_BOX();
+
+
+extern __attribute__ ((visibility ("default"))) Fl_Boxtype fl_define_FL_OVAL_BOX();
+
+
+
+
+
+extern __attribute__ ((visibility ("default"))) Fl_Boxtype fl_define_FL_PLASTIC_UP_BOX();
+# 693 "/usr/local/include/FL/Enumerations.H" 3
+extern __attribute__ ((visibility ("default"))) Fl_Boxtype fl_define_FL_GTK_UP_BOX();
+# 705 "/usr/local/include/FL/Enumerations.H" 3
+extern __attribute__ ((visibility ("default"))) Fl_Boxtype fl_define_FL_GLEAM_UP_BOX();
+# 721 "/usr/local/include/FL/Enumerations.H" 3
+inline Fl_Boxtype fl_box(Fl_Boxtype b) {
+  return (Fl_Boxtype)((b<FL_UP_BOX||b%4>1)?b:(b-2));
+}
+
+
+
+
+
+inline Fl_Boxtype fl_down(Fl_Boxtype b) {
+  return (Fl_Boxtype)((b<FL_UP_BOX)?b:(b|1));
+}
+
+
+
+
+
+inline Fl_Boxtype fl_frame(Fl_Boxtype b) {
+  return (Fl_Boxtype)((b%4<2)?b:(b+2));
+}
+# 761 "/usr/local/include/FL/Enumerations.H" 3
+enum Fl_Labeltype {
+  FL_NORMAL_LABEL = 0,
+  FL_NO_LABEL,
+  _FL_SHADOW_LABEL,
+  _FL_ENGRAVED_LABEL,
+  _FL_EMBOSSED_LABEL,
+  _FL_MULTI_LABEL,
+  _FL_ICON_LABEL,
+  _FL_IMAGE_LABEL,
+
+  FL_FREE_LABELTYPE
+};
+
+
+
+
+
+
+extern Fl_Labeltype __attribute__ ((visibility ("default"))) fl_define_FL_SHADOW_LABEL();
+
+extern Fl_Labeltype __attribute__ ((visibility ("default"))) fl_define_FL_ENGRAVED_LABEL();
+
+extern Fl_Labeltype __attribute__ ((visibility ("default"))) fl_define_FL_EMBOSSED_LABEL();
+# 826 "/usr/local/include/FL/Enumerations.H" 3
+typedef unsigned Fl_Align;
+
+const Fl_Align FL_ALIGN_CENTER = (Fl_Align)0;
+
+
+const Fl_Align FL_ALIGN_TOP = (Fl_Align)1;
+
+const Fl_Align FL_ALIGN_BOTTOM = (Fl_Align)2;
+
+
+
+const Fl_Align FL_ALIGN_LEFT = (Fl_Align)4;
+
+const Fl_Align FL_ALIGN_RIGHT = (Fl_Align)8;
+
+const Fl_Align FL_ALIGN_INSIDE = (Fl_Align)16;
+
+const Fl_Align FL_ALIGN_TEXT_OVER_IMAGE = (Fl_Align)0x0020;
+
+const Fl_Align FL_ALIGN_IMAGE_OVER_TEXT = (Fl_Align)0x0000;
+
+const Fl_Align FL_ALIGN_CLIP = (Fl_Align)64;
+
+const Fl_Align FL_ALIGN_WRAP = (Fl_Align)128;
+
+const Fl_Align FL_ALIGN_IMAGE_NEXT_TO_TEXT = (Fl_Align)0x0100;
+
+const Fl_Align FL_ALIGN_TEXT_NEXT_TO_IMAGE = (Fl_Align)0x0120;
+
+const Fl_Align FL_ALIGN_IMAGE_BACKDROP = (Fl_Align)0x0200;
+const Fl_Align FL_ALIGN_TOP_LEFT = FL_ALIGN_TOP | FL_ALIGN_LEFT;
+const Fl_Align FL_ALIGN_TOP_RIGHT = FL_ALIGN_TOP | FL_ALIGN_RIGHT;
+const Fl_Align FL_ALIGN_BOTTOM_LEFT = FL_ALIGN_BOTTOM | FL_ALIGN_LEFT;
+const Fl_Align FL_ALIGN_BOTTOM_RIGHT = FL_ALIGN_BOTTOM | FL_ALIGN_RIGHT;
+const Fl_Align FL_ALIGN_LEFT_TOP = 0x0007;
+const Fl_Align FL_ALIGN_RIGHT_TOP = 0x000b;
+const Fl_Align FL_ALIGN_LEFT_BOTTOM = 0x000d;
+const Fl_Align FL_ALIGN_RIGHT_BOTTOM = 0x000e;
+const Fl_Align FL_ALIGN_NOWRAP = (Fl_Align)0;
+const Fl_Align FL_ALIGN_POSITION_MASK = 0x000f;
+const Fl_Align FL_ALIGN_IMAGE_MASK = 0x0320;
+# 875 "/usr/local/include/FL/Enumerations.H" 3
+typedef int Fl_Font;
+
+const Fl_Font FL_HELVETICA = 0;
+const Fl_Font FL_HELVETICA_BOLD = 1;
+const Fl_Font FL_HELVETICA_ITALIC = 2;
+const Fl_Font FL_HELVETICA_BOLD_ITALIC = 3;
+const Fl_Font FL_COURIER = 4;
+const Fl_Font FL_COURIER_BOLD = 5;
+const Fl_Font FL_COURIER_ITALIC = 6;
+const Fl_Font FL_COURIER_BOLD_ITALIC = 7;
+const Fl_Font FL_TIMES = 8;
+const Fl_Font FL_TIMES_BOLD = 9;
+const Fl_Font FL_TIMES_ITALIC = 10;
+const Fl_Font FL_TIMES_BOLD_ITALIC = 11;
+const Fl_Font FL_SYMBOL = 12;
+const Fl_Font FL_SCREEN = 13;
+const Fl_Font FL_SCREEN_BOLD = 14;
+const Fl_Font FL_ZAPF_DINGBATS = 15;
+
+const Fl_Font FL_FREE_FONT = 16;
+const Fl_Font FL_BOLD = 1;
+const Fl_Font FL_ITALIC = 2;
+const Fl_Font FL_BOLD_ITALIC = 3;
+
+
+
+
+
+
+typedef int Fl_Fontsize;
+
+extern __attribute__ ((visibility ("default"))) Fl_Fontsize FL_NORMAL_SIZE;
+# 932 "/usr/local/include/FL/Enumerations.H" 3
+typedef unsigned int Fl_Color;
+
+
+const Fl_Color FL_FOREGROUND_COLOR = 0;
+const Fl_Color FL_BACKGROUND2_COLOR = 7;
+const Fl_Color FL_INACTIVE_COLOR = 8;
+const Fl_Color FL_SELECTION_COLOR = 15;
+
+
+
+
+const Fl_Color FL_GRAY0 = 32;
+const Fl_Color FL_DARK3 = 39;
+const Fl_Color FL_DARK2 = 45;
+const Fl_Color FL_DARK1 = 47;
+const Fl_Color FL_BACKGROUND_COLOR = 49;
+const Fl_Color FL_LIGHT1 = 50;
+const Fl_Color FL_LIGHT2 = 52;
+const Fl_Color FL_LIGHT3 = 54;
+
+
+
+const Fl_Color FL_BLACK = 56;
+const Fl_Color FL_RED = 88;
+const Fl_Color FL_GREEN = 63;
+const Fl_Color FL_YELLOW = 95;
+const Fl_Color FL_BLUE = 216;
+const Fl_Color FL_MAGENTA = 248;
+const Fl_Color FL_CYAN = 223;
+const Fl_Color FL_DARK_RED = 72;
+
+const Fl_Color FL_DARK_GREEN = 60;
+const Fl_Color FL_DARK_YELLOW = 76;
+const Fl_Color FL_DARK_BLUE = 136;
+const Fl_Color FL_DARK_MAGENTA = 152;
+const Fl_Color FL_DARK_CYAN = 140;
+
+const Fl_Color FL_WHITE = 255;
+# 982 "/usr/local/include/FL/Enumerations.H" 3
+__attribute__ ((visibility ("default"))) Fl_Color fl_inactive(Fl_Color c);
+
+__attribute__ ((visibility ("default"))) Fl_Color fl_contrast(Fl_Color fg, Fl_Color bg);
+
+__attribute__ ((visibility ("default"))) Fl_Color fl_color_average(Fl_Color c1, Fl_Color c2, float weight);
+
+
+inline Fl_Color fl_lighter(Fl_Color c) { return fl_color_average(c, FL_WHITE, .67f); }
+
+
+inline Fl_Color fl_darker(Fl_Color c) { return fl_color_average(c, FL_BLACK, .67f); }
+
+
+inline Fl_Color fl_rgb_color(uchar r, uchar g, uchar b) {
+  if (!r && !g && !b) return FL_BLACK;
+  else return (Fl_Color)(((((r << 8) | g) << 8) | b) << 8);
+}
+
+
+inline Fl_Color fl_rgb_color(uchar g) {
+  if (!g) return FL_BLACK;
+  else return (Fl_Color)(((((g << 8) | g) << 8) | g) << 8);
+}
+# 1014 "/usr/local/include/FL/Enumerations.H" 3
+inline Fl_Color fl_gray_ramp(int i) {return (Fl_Color)(i+(Fl_Color)32);}
+# 1030 "/usr/local/include/FL/Enumerations.H" 3
+inline Fl_Color fl_color_cube(int r, int g, int b) {
+  return (Fl_Color)((b*5 + r) * 8 + g + (Fl_Color)56);}
+# 1046 "/usr/local/include/FL/Enumerations.H" 3
+enum Fl_Cursor {
+  FL_CURSOR_DEFAULT = 0,
+  FL_CURSOR_ARROW = 35,
+  FL_CURSOR_CROSS = 66,
+  FL_CURSOR_WAIT = 76,
+  FL_CURSOR_INSERT = 77,
+  FL_CURSOR_HAND = 31,
+  FL_CURSOR_HELP = 47,
+  FL_CURSOR_MOVE = 27,
+
+
+  FL_CURSOR_NS = 78,
+  FL_CURSOR_WE = 79,
+  FL_CURSOR_NWSE = 80,
+  FL_CURSOR_NESW = 81,
+  FL_CURSOR_N = 70,
+  FL_CURSOR_NE = 69,
+  FL_CURSOR_E = 49,
+  FL_CURSOR_SE = 8,
+  FL_CURSOR_S = 9,
+  FL_CURSOR_SW = 7,
+  FL_CURSOR_W = 36,
+  FL_CURSOR_NW = 68,
+
+  FL_CURSOR_NONE =255
+};
+
+
+
+enum {
+  FL_READ = 1,
+  FL_WRITE = 4,
+  FL_EXCEPT = 8
+};
+
+
+enum Fl_Mode {
+  FL_RGB = 0,
+  FL_INDEX = 1,
+  FL_SINGLE = 0,
+  FL_DOUBLE = 2,
+  FL_ACCUM = 4,
+  FL_ALPHA = 8,
+  FL_DEPTH = 16,
+  FL_STENCIL = 32,
+  FL_RGB8 = 64,
+  FL_MULTISAMPLE= 128,
+  FL_STEREO = 256,
+  FL_FAKE_SINGLE = 512,
+  FL_OPENGL3 = 1024
+};
+
+
+
+
+
+
+enum Fl_Damage {
+  FL_DAMAGE_CHILD = 0x01,
+  FL_DAMAGE_EXPOSE = 0x02,
+  FL_DAMAGE_SCROLL = 0x04,
+  FL_DAMAGE_OVERLAY = 0x08,
+  FL_DAMAGE_USER1 = 0x10,
+  FL_DAMAGE_USER2 = 0x20,
+  FL_DAMAGE_ALL = 0x80
+};
+# 34 "/usr/local/include/FL/Fl.H" 2 3
+# 43 "/usr/local/include/FL/Fl.H" 3
+class Fl_Widget;
+class Fl_Window;
+class Fl_Image;
+struct Fl_Label;
+# 62 "/usr/local/include/FL/Fl.H" 3
+extern __attribute__ ((visibility ("default"))) const char* fl_local_ctrl;
+extern __attribute__ ((visibility ("default"))) const char* fl_local_meta;
+extern __attribute__ ((visibility ("default"))) const char* fl_local_alt;
+extern __attribute__ ((visibility ("default"))) const char* fl_local_shift;
+# 83 "/usr/local/include/FL/Fl.H" 3
+typedef void (Fl_Label_Draw_F)(const Fl_Label *label, int x, int y, int w, int h, Fl_Align align);
+
+
+typedef void (Fl_Label_Measure_F)(const Fl_Label *label, int &width, int &height);
+
+
+typedef void (Fl_Box_Draw_F)(int x, int y, int w, int h, Fl_Color color);
+
+
+typedef void (*Fl_Timeout_Handler)(void *data);
+
+
+typedef void (*Fl_Awake_Handler)(void *data);
+
+
+typedef void (*Fl_Idle_Handler)(void *data);
+
+
+typedef void (*Fl_Old_Idle_Handler)();
+
+
+typedef void (*Fl_FD_Handler)(int fd, void *data);
+
+
+typedef int (*Fl_Event_Handler)(int event);
+
+
+typedef int (*Fl_System_Handler)(void *event, void *data);
+
+
+typedef void (*Fl_Abort_Handler)(const char *format,...);
+
+
+typedef void (*Fl_Atclose_Handler)(Fl_Window *window, void *data);
+
+
+typedef int (*Fl_Args_Handler)(int argc, char **argv, int &i);
+
+
+
+typedef int (*Fl_Event_Dispatch)(int event, Fl_Window *w);
+
+
+typedef void (*Fl_Clipboard_Notify_Handler)(int source, void *data);
+# 135 "/usr/local/include/FL/Fl.H" 3
+class __attribute__ ((visibility ("default"))) Fl {
+  Fl() {};
+
+private:
+  static int use_high_res_GL_;
+
+public:
+
+  static int e_number;
+  static int e_x;
+  static int e_y;
+  static int e_x_root;
+  static int e_y_root;
+  static int e_dx;
+  static int e_dy;
+  static int e_state;
+  static int e_clicks;
+  static int e_is_click;
+  static int e_keysym;
+  static char* e_text;
+  static int e_length;
+  static void *e_clipboard_data;
+  static const char *e_clipboard_type;
+  static Fl_Event_Dispatch e_dispatch;
+  static Fl_Widget* belowmouse_;
+  static Fl_Widget* pushed_;
+  static Fl_Widget* focus_;
+  static int damage_;
+  static Fl_Widget* selection_owner_;
+  static Fl_Window* modal_;
+  static Fl_Window* grab_;
+  static int compose_state;
+  static void call_screen_init();
+# 178 "/usr/local/include/FL/Fl.H" 3
+  static void damage(int d) {damage_ = d;}
+
+public:
+
+
+
+
+
+
+  typedef enum {
+# 197 "/usr/local/include/FL/Fl.H" 3
+    OPTION_ARROW_FOCUS = 0,
+# 212 "/usr/local/include/FL/Fl.H" 3
+    OPTION_VISIBLE_FOCUS,
+
+
+
+    OPTION_DND_TEXT,
+
+
+
+    OPTION_SHOW_TOOLTIPS,
+
+
+
+    OPTION_FNFC_USES_GTK,
+
+
+    OPTION_LAST
+  } Fl_Option;
+
+private:
+  static unsigned char options_[OPTION_LAST];
+  static unsigned char options_read_;
+
+public:
+
+
+
+
+  static bool option(Fl_Option opt);
+
+
+
+
+  static void option(Fl_Option opt, bool val);
+# 253 "/usr/local/include/FL/Fl.H" 3
+  static void (*idle)();
+
+
+  static Fl_Awake_Handler *awake_ring_;
+  static void **awake_data_;
+  static int awake_ring_size_;
+  static int awake_ring_head_;
+  static int awake_ring_tail_;
+  static const char* scheme_;
+  static Fl_Image* scheme_bg_;
+
+  static int e_original_keysym;
+  static int scrollbar_size_;
+
+
+
+  static int add_awake_handler_(Fl_Awake_Handler, void*);
+  static int get_awake_handler_(Fl_Awake_Handler&, void*&);
+
+public:
+
+
+  static double version();
+  static int api_version();
+
+
+  static int abi_version();
+# 303 "/usr/local/include/FL/Fl.H" 3
+  static inline int abi_check(const int val = (1*10000 + 3*100)) {
+    return val == abi_version();
+  }
+
+
+  static int arg(int argc, char **argv, int& i);
+  static int args(int argc, char **argv, int& i, Fl_Args_Handler cb = 0);
+  static void args(int argc, char **argv);
+
+
+
+
+  static const char* const help;
+
+
+  static void display(const char*);
+  static int visual(int);
+# 329 "/usr/local/include/FL/Fl.H" 3
+  static int gl_visual(int, int *alist=0);
+  static void own_colormap();
+  static void get_system_colors();
+  static void foreground(uchar, uchar, uchar);
+  static void background(uchar, uchar, uchar);
+  static void background2(uchar, uchar, uchar);
+
+
+  static int scheme(const char *name);
+
+  static const char* scheme() {return scheme_;}
+# 368 "/usr/local/include/FL/Fl.H" 3
+  static int is_scheme(const char *name) {
+    return (scheme_ && name && !strcmp(name,scheme_));
+  }
+
+
+
+
+
+  static int reload_scheme();
+  static int scrollbar_size();
+  static void scrollbar_size(int W);
+
+
+  static int wait();
+  static double wait(double time);
+  static int check();
+  static int ready();
+  static int run();
+  static Fl_Widget* readqueue();
+# 417 "/usr/local/include/FL/Fl.H" 3
+  static void add_timeout(double t, Fl_Timeout_Handler,void* = 0);
+# 438 "/usr/local/include/FL/Fl.H" 3
+  static void repeat_timeout(double t, Fl_Timeout_Handler, void* = 0);
+  static int has_timeout(Fl_Timeout_Handler, void* = 0);
+  static void remove_timeout(Fl_Timeout_Handler, void* = 0);
+  static void add_check(Fl_Timeout_Handler, void* = 0);
+  static int has_check(Fl_Timeout_Handler, void* = 0);
+  static void remove_check(Fl_Timeout_Handler, void* = 0);
+# 463 "/usr/local/include/FL/Fl.H" 3
+  static void add_fd(int fd, int when, Fl_FD_Handler cb, void* = 0);
+
+  static void add_fd(int fd, Fl_FD_Handler cb, void* = 0);
+
+  static void remove_fd(int, int when);
+
+  static void remove_fd(int);
+
+  static void add_idle(Fl_Idle_Handler cb, void* data = 0);
+  static int has_idle(Fl_Idle_Handler cb, void* data = 0);
+  static void remove_idle(Fl_Idle_Handler cb, void* data = 0);
+
+  static int damage() {return damage_;}
+  static void redraw();
+  static void flush();
+# 498 "/usr/local/include/FL/Fl.H" 3
+  static void (*warning)(const char*, ...);
+# 513 "/usr/local/include/FL/Fl.H" 3
+  static void (*error)(const char*, ...);
+# 530 "/usr/local/include/FL/Fl.H" 3
+  static void (*fatal)(const char*, ...);
+
+
+
+
+
+  static Fl_Window* first_window();
+  static void first_window(Fl_Window*);
+  static Fl_Window* next_window(const Fl_Window*);
+# 549 "/usr/local/include/FL/Fl.H" 3
+  static Fl_Window* modal() {return modal_;}
+
+
+
+
+
+  static Fl_Window* grab() {return grab_;}
+# 580 "/usr/local/include/FL/Fl.H" 3
+  static void grab(Fl_Window*);
+# 593 "/usr/local/include/FL/Fl.H" 3
+  static int event() {return e_number;}
+
+
+
+
+  static int event_x() {return e_x;}
+
+
+
+
+  static int event_y() {return e_y;}
+
+
+
+
+
+
+  static int event_x_root() {return e_x_root;}
+
+
+
+
+
+
+  static int event_y_root() {return e_y_root;}
+
+
+
+
+  static int event_dx() {return e_dx;}
+
+
+
+
+  static int event_dy() {return e_dy;}
+# 636 "/usr/local/include/FL/Fl.H" 3
+  static void get_mouse(int &,int &);
+# 645 "/usr/local/include/FL/Fl.H" 3
+  static int event_clicks() {return e_clicks;}
+
+
+
+
+
+
+
+  static void event_clicks(int i) {e_clicks = i;}
+
+
+
+
+
+
+
+  static int event_is_click() {return e_is_click;}
+
+
+
+
+
+
+  static void event_is_click(int i) {e_is_click = i;}
+# 678 "/usr/local/include/FL/Fl.H" 3
+  static int event_button() {return e_keysym-0xfee8;}
+# 704 "/usr/local/include/FL/Fl.H" 3
+  static int event_state() {return e_state;}
+
+
+
+
+
+
+  static int event_state(int mask) {return e_state&mask;}
+# 723 "/usr/local/include/FL/Fl.H" 3
+  static int event_key() {return e_keysym;}
+# 732 "/usr/local/include/FL/Fl.H" 3
+  static int event_original_key(){return e_original_keysym;}
+# 771 "/usr/local/include/FL/Fl.H" 3
+  static int event_key(int key);
+
+
+
+
+
+  static int get_key(int key);
+# 792 "/usr/local/include/FL/Fl.H" 3
+  static const char* event_text() {return e_text;}
+
+
+
+
+
+
+  static int event_length() {return e_length;}
+
+
+
+
+  static void *event_clipboard() { return e_clipboard_data; }
+
+
+
+  static const char *event_clipboard_type() {return e_clipboard_type; }
+
+
+  static int compose(int &del);
+  static void compose_reset();
+  static int event_inside(int,int,int,int);
+  static int event_inside(const Fl_Widget*);
+  static int test_shortcut(Fl_Shortcut);
+
+
+
+
+
+  static void enable_im();
+
+
+
+
+  static void disable_im();
+
+
+  static int handle(int, Fl_Window*);
+  static int handle_(int, Fl_Window*);
+
+
+  static Fl_Widget* belowmouse() {return belowmouse_;}
+  static void belowmouse(Fl_Widget*);
+
+
+  static Fl_Widget* pushed() {return pushed_;}
+  static void pushed(Fl_Widget*);
+
+  static Fl_Widget* focus() {return focus_;}
+  static void focus(Fl_Widget*);
+  static void add_handler(Fl_Event_Handler h);
+  static void remove_handler(Fl_Event_Handler h);
+  static void add_system_handler(Fl_System_Handler h, void *data);
+  static void remove_system_handler(Fl_System_Handler h);
+  static void event_dispatch(Fl_Event_Dispatch d);
+  static Fl_Event_Dispatch event_dispatch();
+# 872 "/usr/local/include/FL/Fl.H" 3
+  static void copy(const char* stuff, int len, int destination, const char *type);
+  static void copy(const char* stuff, int len, int destination = 0);
+
+
+
+  static void copy_image(const unsigned char* data, int W, int H, int destination = 0);
+# 920 "/usr/local/include/FL/Fl.H" 3
+  static void paste(Fl_Widget &receiver, int source, const char *type);
+  static void paste(Fl_Widget &receiver, int source );
+# 944 "/usr/local/include/FL/Fl.H" 3
+  static void add_clipboard_notify(Fl_Clipboard_Notify_Handler h, void *data = 0);
+
+
+
+
+  static void remove_clipboard_notify(Fl_Clipboard_Notify_Handler h);
+
+
+
+  static int clipboard_contains(const char *type);
+
+
+  static char const * const clipboard_plain_text;
+
+
+  static char const * const clipboard_image;
+# 970 "/usr/local/include/FL/Fl.H" 3
+  static int dnd();
+
+
+
+
+  static Fl_Widget* selection_owner() {return selection_owner_;}
+  static void selection_owner(Fl_Widget*);
+  static void selection(Fl_Widget &owner, const char*, int len);
+  static void paste(Fl_Widget &receiver);
+
+
+
+
+
+
+  static int x();
+
+  static int y();
+
+  static int w();
+
+  static int h();
+
+
+  static int screen_count();
+
+
+
+
+
+  static void screen_xywh(int &X, int &Y, int &W, int &H) {
+    int x, y;
+    Fl::get_mouse(x, y);
+    screen_xywh(X, Y, W, H, x, y);
+  }
+  static void screen_xywh(int &X, int &Y, int &W, int &H, int mx, int my);
+  static void screen_xywh(int &X, int &Y, int &W, int &H, int n);
+  static void screen_xywh(int &X, int &Y, int &W, int &H, int mx, int my, int mw, int mh);
+  static int screen_num(int x, int y);
+  static int screen_num(int x, int y, int w, int h);
+  static void screen_dpi(float &h, float &v, int n=0);
+  static void screen_work_area(int &X, int &Y, int &W, int &H, int mx, int my);
+  static void screen_work_area(int &X, int &Y, int &W, int &H, int n);
+
+
+
+
+
+  static void screen_work_area(int &X, int &Y, int &W, int &H) {
+    int x, y;
+    Fl::get_mouse(x, y);
+    screen_work_area(X, Y, W, H, x, y);
+  }
+# 1032 "/usr/local/include/FL/Fl.H" 3
+  static void set_color(Fl_Color, uchar, uchar, uchar);
+
+
+
+
+  static void set_color(Fl_Color i, unsigned c);
+  static unsigned get_color(Fl_Color i);
+  static void get_color(Fl_Color i, uchar &red, uchar &green, uchar &blue);
+
+
+
+
+
+  static void free_color(Fl_Color i, int overlay = 0);
+
+
+  static const char* get_font(Fl_Font);
+# 1061 "/usr/local/include/FL/Fl.H" 3
+  static const char* get_font_name(Fl_Font, int* attributes = 0);
+# 1073 "/usr/local/include/FL/Fl.H" 3
+  static int get_font_sizes(Fl_Font, int*& sizep);
+  static void set_font(Fl_Font, const char*);
+  static void set_font(Fl_Font, Fl_Font);
+# 1094 "/usr/local/include/FL/Fl.H" 3
+  static Fl_Font set_fonts(const char* = 0);
+# 1106 "/usr/local/include/FL/Fl.H" 3
+  static void set_labeltype(Fl_Labeltype,Fl_Label_Draw_F*,Fl_Label_Measure_F*);
+
+  static void set_labeltype(Fl_Labeltype, Fl_Labeltype from);
+
+
+  static Fl_Box_Draw_F *get_boxtype(Fl_Boxtype);
+  static void set_boxtype(Fl_Boxtype, Fl_Box_Draw_F*,uchar,uchar,uchar,uchar);
+  static void set_boxtype(Fl_Boxtype, Fl_Boxtype from);
+  static int box_dx(Fl_Boxtype);
+  static int box_dy(Fl_Boxtype);
+  static int box_dw(Fl_Boxtype);
+  static int box_dh(Fl_Boxtype);
+
+  static int draw_box_active();
+  static Fl_Color box_color(Fl_Color);
+  static void set_box_color(Fl_Color);
+
+
+
+
+
+  static void set_abort(Fl_Abort_Handler f) {fatal = f;}
+  static void (*atclose)(Fl_Window*,void*);
+  static void default_atclose(Fl_Window*,void*);
+
+
+
+  static void set_atclose(Fl_Atclose_Handler f) {atclose = f;}
+
+
+
+
+
+  static int event_shift() {return e_state&0x00010000;}
+
+  static int event_ctrl() {return e_state&0x00040000;}
+
+  static int event_command() {return e_state&0x00040000;}
+
+  static int event_alt() {return e_state&0x00080000;}
+# 1154 "/usr/local/include/FL/Fl.H" 3
+  static int event_buttons() {return e_state&0x7f000000;}
+
+
+
+
+  static int event_button1() {return e_state&0x01000000;}
+
+
+
+
+  static int event_button2() {return e_state&0x02000000;}
+
+
+
+
+  static int event_button3() {return e_state&0x04000000;}
+
+
+
+
+
+
+
+  static void set_idle(Fl_Old_Idle_Handler cb) {idle = cb;}
+
+  static void grab(Fl_Window& win) {grab(&win);}
+
+
+
+  static void release() {grab(0);}
+
+
+
+
+
+
+
+  static void visible_focus(int v) { option(OPTION_VISIBLE_FOCUS, (v!=0)); }
+
+
+
+
+
+  static int visible_focus() { return option(OPTION_VISIBLE_FOCUS); }
+# 1206 "/usr/local/include/FL/Fl.H" 3
+  static void dnd_text_ops(int v) { option(OPTION_DND_TEXT, (v!=0)); }
+
+
+
+
+
+
+  static int dnd_text_ops() { return option(OPTION_DND_TEXT); }
+
+
+
+
+
+  static int lock();
+  static void unlock();
+  static void awake(void* message = 0);
+
+  static int awake(Fl_Awake_Handler cb, void* message = 0);
+
+
+
+
+
+
+  static void* thread_message();
+# 1263 "/usr/local/include/FL/Fl.H" 3
+  static void delete_widget(Fl_Widget *w);
+  static void do_widget_deletion();
+  static void watch_widget_pointer(Fl_Widget *&w);
+  static void release_widget_pointer(Fl_Widget *&w);
+  static void clear_widget_pointer(Fl_Widget const *w);
+
+
+
+
+
+
+  static void use_high_res_GL(int val) { use_high_res_GL_ = val; }
+
+
+
+
+
+  static int use_high_res_GL() { return use_high_res_GL_; }
+# 1329 "/usr/local/include/FL/Fl.H" 3
+};
+# 1371 "/usr/local/include/FL/Fl.H" 3
+class __attribute__ ((visibility ("default"))) Fl_Widget_Tracker {
+
+  Fl_Widget* wp_;
+
+public:
+
+  Fl_Widget_Tracker(Fl_Widget *wi);
+  ~Fl_Widget_Tracker();
+
+
+
+
+
+
+  Fl_Widget *widget() {return wp_;}
+# 1396 "/usr/local/include/FL/Fl.H" 3
+  int deleted() {return wp_ == 0;}
+# 1407 "/usr/local/include/FL/Fl.H" 3
+  int exists() {return wp_ != 0;}
+
+};
+# 2 "/home/umang/Desktop/Embedded GUI/Downloads from Moodle/ELearning_EG_FLTK_Tasks/hello-c-win/hello.cpp" 2
+# 1 "/usr/local/include/FL/Fl_Window.H" 1 3
+# 29 "/usr/local/include/FL/Fl_Window.H" 3
+# 1 "/usr/local/include/FL/Fl_Group.H" 1 3
+# 26 "/usr/local/include/FL/Fl_Group.H" 3
+# 1 "/usr/local/include/FL/Fl_Widget.H" 1 3
+# 39 "/usr/local/include/FL/Fl_Widget.H" 3
+typedef long fl_intptr_t;
+typedef unsigned long fl_uintptr_t;
+
+
+class Fl_Widget;
+class Fl_Window;
+class Fl_Group;
+class Fl_Image;
+
+
+typedef void (Fl_Callback )(Fl_Widget*, void*);
+
+typedef Fl_Callback* Fl_Callback_p;
+
+typedef void (Fl_Callback0)(Fl_Widget*);
+
+typedef void (Fl_Callback1)(Fl_Widget*, long);
+# 65 "/usr/local/include/FL/Fl_Widget.H" 3
+struct __attribute__ ((visibility ("default"))) Fl_Label {
+
+  const char* value;
+
+  Fl_Image* image;
+
+  Fl_Image* deimage;
+
+  Fl_Font font;
+
+  Fl_Fontsize size;
+
+  Fl_Color color;
+
+  Fl_Align align_;
+
+  uchar type;
+
+
+  void draw(int,int,int,int, Fl_Align) const ;
+  void measure(int &w, int &h) const ;
+};
+# 101 "/usr/local/include/FL/Fl_Widget.H" 3
+class __attribute__ ((visibility ("default"))) Fl_Widget {
+  friend class Fl_Group;
+
+  Fl_Group* parent_;
+  Fl_Callback* callback_;
+  void* user_data_;
+  int x_,y_,w_,h_;
+  Fl_Label label_;
+  unsigned int flags_;
+  Fl_Color color_;
+  Fl_Color color2_;
+  uchar type_;
+  uchar damage_;
+  uchar box_;
+  uchar when_;
+
+  const char *tooltip_;
+
+
+  Fl_Widget(const Fl_Widget &);
+
+  Fl_Widget& operator=(const Fl_Widget &);
+
+protected:
+# 136 "/usr/local/include/FL/Fl_Widget.H" 3
+  Fl_Widget(int x, int y, int w, int h, const char *label=0L);
+
+
+  void x(int v) {x_ = v;}
+
+  void y(int v) {y_ = v;}
+
+  void w(int v) {w_ = v;}
+
+  void h(int v) {h_ = v;}
+
+  unsigned int flags() const {return flags_;}
+
+  void set_flag(unsigned int c) {flags_ |= c;}
+
+  void clear_flag(unsigned int c) {flags_ &= ~c;}
+
+
+
+  enum {
+        INACTIVE = 1<<0,
+        INVISIBLE = 1<<1,
+        OUTPUT = 1<<2,
+        NOBORDER = 1<<3,
+        FORCE_POSITION = 1<<4,
+        NON_MODAL = 1<<5,
+        SHORTCUT_LABEL = 1<<6,
+        CHANGED = 1<<7,
+        OVERRIDE = 1<<8,
+        VISIBLE_FOCUS = 1<<9,
+        COPIED_LABEL = 1<<10,
+        CLIP_CHILDREN = 1<<11,
+        MENU_WINDOW = 1<<12,
+        TOOLTIP_WINDOW = 1<<13,
+        MODAL = 1<<14,
+        NO_OVERLAY = 1<<15,
+        GROUP_RELATIVE = 1<<16,
+        COPIED_TOOLTIP = 1<<17,
+        FULLSCREEN = 1<<18,
+        MAC_USE_ACCENTS_MENU = 1<<19,
+
+        USERFLAG3 = 1<<29,
+        USERFLAG2 = 1<<30,
+        USERFLAG1 = 1<<31
+  };
+  void draw_box() const;
+  void draw_box(Fl_Boxtype t, Fl_Color c) const;
+  void draw_box(Fl_Boxtype t, int x,int y,int w,int h, Fl_Color c) const;
+  void draw_backdrop() const;
+
+  void draw_focus() {draw_focus(box(),x(),y(),w(),h());}
+  void draw_focus(Fl_Boxtype t, int x,int y,int w,int h) const;
+  void draw_label() const;
+  void draw_label(int, int, int, int) const;
+
+public:
+# 201 "/usr/local/include/FL/Fl_Widget.H" 3
+  virtual ~Fl_Widget();
+# 219 "/usr/local/include/FL/Fl_Widget.H" 3
+  virtual void draw() = 0;
+# 237 "/usr/local/include/FL/Fl_Widget.H" 3
+  virtual int handle(int event);
+# 247 "/usr/local/include/FL/Fl_Widget.H" 3
+  int is_label_copied() const {return ((flags_ & COPIED_LABEL) ? 1 : 0);}
+
+
+
+
+
+
+  Fl_Group* parent() const {return parent_;}
+# 264 "/usr/local/include/FL/Fl_Widget.H" 3
+  void parent(Fl_Group* p) {parent_ = p;}
+# 274 "/usr/local/include/FL/Fl_Widget.H" 3
+  uchar type() const {return type_;}
+
+
+
+
+  void type(uchar t) {type_ = t;}
+
+
+
+
+  int x() const {return x_;}
+
+
+
+
+  int y() const {return y_;}
+
+
+
+
+  int w() const {return w_;}
+
+
+
+
+  int h() const {return h_;}
+# 320 "/usr/local/include/FL/Fl_Widget.H" 3
+  virtual void resize(int x, int y, int w, int h);
+
+
+  int damage_resize(int,int,int,int);
+# 332 "/usr/local/include/FL/Fl_Widget.H" 3
+  void position(int X,int Y) {resize(X,Y,w_,h_);}
+# 341 "/usr/local/include/FL/Fl_Widget.H" 3
+  void size(int W,int H) {resize(x_,y_,W,H);}
+
+
+
+
+
+
+  Fl_Align align() const {return label_.align_;}
+# 357 "/usr/local/include/FL/Fl_Widget.H" 3
+  void align(Fl_Align alignment) {label_.align_ = alignment;}
+
+
+
+
+
+  Fl_Boxtype box() const {return (Fl_Boxtype)box_;}
+# 372 "/usr/local/include/FL/Fl_Widget.H" 3
+  void box(Fl_Boxtype new_box) {box_ = new_box;}
+
+
+
+
+
+  Fl_Color color() const {return color_;}
+# 390 "/usr/local/include/FL/Fl_Widget.H" 3
+  void color(Fl_Color bg) {color_ = bg;}
+
+
+
+
+
+  Fl_Color selection_color() const {return color2_;}
+# 406 "/usr/local/include/FL/Fl_Widget.H" 3
+  void selection_color(Fl_Color a) {color2_ = a;}
+# 415 "/usr/local/include/FL/Fl_Widget.H" 3
+  void color(Fl_Color bg, Fl_Color sel) {color_=bg; color2_=sel;}
+
+
+
+
+
+  const char* label() const {return label_.value;}
+# 433 "/usr/local/include/FL/Fl_Widget.H" 3
+  void label(const char* text);
+# 445 "/usr/local/include/FL/Fl_Widget.H" 3
+  void copy_label(const char *new_label);
+
+
+
+
+  void label(Fl_Labeltype a, const char* b) {label_.type = a; label_.value = b;}
+
+
+
+
+
+  Fl_Labeltype labeltype() const {return (Fl_Labeltype)label_.type;}
+# 466 "/usr/local/include/FL/Fl_Widget.H" 3
+  void labeltype(Fl_Labeltype a) {label_.type = a;}
+
+
+
+
+
+  Fl_Color labelcolor() const {return label_.color;}
+
+
+
+
+
+  void labelcolor(Fl_Color c) {label_.color=c;}
+# 487 "/usr/local/include/FL/Fl_Widget.H" 3
+  Fl_Font labelfont() const {return label_.font;}
+# 496 "/usr/local/include/FL/Fl_Widget.H" 3
+  void labelfont(Fl_Font f) {label_.font=f;}
+
+
+
+
+
+  Fl_Fontsize labelsize() const {return label_.size;}
+
+
+
+
+
+  void labelsize(Fl_Fontsize pix) {label_.size=pix;}
+
+
+
+
+
+  Fl_Image* image() {return label_.image;}
+  const Fl_Image* image() const {return label_.image;}
+
+
+
+
+
+  void image(Fl_Image* img) {label_.image=img;}
+
+
+
+
+
+  void image(Fl_Image& img) {label_.image=&img;}
+
+
+
+
+
+  Fl_Image* deimage() {return label_.deimage;}
+  const Fl_Image* deimage() const {return label_.deimage;}
+
+
+
+
+
+  void deimage(Fl_Image* img) {label_.deimage=img;}
+
+
+
+
+
+  void deimage(Fl_Image& img) {label_.deimage=&img;}
+
+
+
+
+
+  const char *tooltip() const {return tooltip_;}
+
+  void tooltip(const char *text);
+  void copy_tooltip(const char *text);
+
+
+
+
+
+  Fl_Callback_p callback() const {return callback_;}
+
+
+
+
+
+
+  void callback(Fl_Callback* cb, void* p) {callback_=cb; user_data_=p;}
+
+
+
+
+
+  void callback(Fl_Callback* cb) {callback_=cb;}
+
+
+
+
+
+  void callback(Fl_Callback0*cb) {callback_=(Fl_Callback*)cb;}
+
+
+
+
+
+
+  void callback(Fl_Callback1*cb, long p=0) {callback_=(Fl_Callback*)cb; user_data_=(void*)(fl_intptr_t)p;}
+
+
+
+
+
+  void* user_data() const {return user_data_;}
+
+
+
+
+
+  void user_data(void* v) {user_data_ = v;}
+
+
+
+
+
+  long argument() const {return (long)(fl_intptr_t)user_data_;}
+
+
+
+
+
+  void argument(long v) {user_data_ = (void*)(fl_intptr_t)v;}
+# 621 "/usr/local/include/FL/Fl_Widget.H" 3
+  Fl_When when() const {return (Fl_When)when_;}
+# 654 "/usr/local/include/FL/Fl_Widget.H" 3
+  void when(uchar i) {when_ = i;}
+
+
+
+
+
+  unsigned int visible() const {return !(flags_&INVISIBLE);}
+
+
+
+
+
+  int visible_r() const;
+# 685 "/usr/local/include/FL/Fl_Widget.H" 3
+  virtual void show();
+
+
+
+
+  virtual void hide();
+
+
+
+
+
+  void set_visible() {flags_ &= ~INVISIBLE;}
+
+
+
+
+
+  void clear_visible() {flags_ |= INVISIBLE;}
+
+
+
+
+
+  unsigned int active() const {return !(flags_&INACTIVE);}
+
+
+
+
+
+  int active_r() const;
+
+
+
+
+
+
+  void activate();
+# 737 "/usr/local/include/FL/Fl_Widget.H" 3
+  void deactivate();
+# 747 "/usr/local/include/FL/Fl_Widget.H" 3
+  unsigned int output() const {return (flags_&OUTPUT);}
+
+
+
+
+  void set_output() {flags_ |= OUTPUT;}
+
+
+
+
+  void clear_output() {flags_ &= ~OUTPUT;}
+
+
+
+
+
+
+  unsigned int takesevents() const {return !(flags_&(INACTIVE|INVISIBLE|OUTPUT));}
+# 781 "/usr/local/include/FL/Fl_Widget.H" 3
+  unsigned int changed() const {return flags_&CHANGED;}
+
+
+
+
+  void set_changed() {flags_ |= CHANGED;}
+
+
+
+
+  void clear_changed() {flags_ &= ~CHANGED;}
+
+
+
+
+
+  void clear_active() {flags_ |= INACTIVE;}
+
+
+
+
+
+  void set_active() {flags_ &= ~INACTIVE;}
+# 812 "/usr/local/include/FL/Fl_Widget.H" 3
+  int take_focus();
+
+
+
+
+
+
+
+  void set_visible_focus() { flags_ |= VISIBLE_FOCUS; }
+
+
+
+
+
+  void clear_visible_focus() { flags_ &= ~VISIBLE_FOCUS; }
+
+
+
+
+
+  void visible_focus(int v) { if (v) set_visible_focus(); else clear_visible_focus(); }
+
+
+
+
+
+  unsigned int visible_focus() { return flags_ & VISIBLE_FOCUS; }
+# 855 "/usr/local/include/FL/Fl_Widget.H" 3
+  static void default_callback(Fl_Widget *cb, void *d);
+
+
+
+
+
+  void do_callback() {do_callback(this,user_data_);}
+
+
+
+
+
+
+
+  void do_callback(Fl_Widget* o,long arg) {do_callback(o,(void*)(fl_intptr_t)arg);}
+
+
+
+  void do_callback(Fl_Widget* o,void* arg=0);
+
+
+  int test_shortcut();
+
+  static unsigned int label_shortcut(const char *t);
+
+  static int test_shortcut(const char*, const bool require_alt = false);
+
+  void _set_fullscreen() {flags_ |= FULLSCREEN;}
+  void _clear_fullscreen() {flags_ &= ~FULLSCREEN;}
+
+
+
+
+
+
+  int contains(const Fl_Widget *w) const ;
+
+
+
+
+
+
+
+  int inside(const Fl_Widget* wgt) const {return wgt ? wgt->contains(this) : 0;}
+
+
+
+
+  void redraw();
+
+
+
+
+
+  void redraw_label();
+
+
+
+
+
+
+
+  uchar damage() const {return damage_;}
+# 931 "/usr/local/include/FL/Fl_Widget.H" 3
+  void clear_damage(uchar c = 0) {damage_ = c;}
+
+
+
+
+
+
+  void damage(uchar c);
+
+
+
+
+
+
+
+  void damage(uchar c, int x, int y, int w, int h);
+
+  void draw_label(int, int, int, int, Fl_Align) const;
+# 957 "/usr/local/include/FL/Fl_Widget.H" 3
+  void measure_label(int& ww, int& hh) const {label_.measure(ww, hh);}
+
+  Fl_Window* window() const ;
+  Fl_Window* top_window() const;
+  Fl_Window* top_window_offset(int& xoff, int& yoff) const;
+# 986 "/usr/local/include/FL/Fl_Widget.H" 3
+  virtual Fl_Group* as_group() {return 0;}
+# 1000 "/usr/local/include/FL/Fl_Widget.H" 3
+  virtual Fl_Window* as_window() {return 0;}
+# 1012 "/usr/local/include/FL/Fl_Widget.H" 3
+  virtual class Fl_Gl_Window* as_gl_window() {return 0;}
+
+
+
+  int use_accents_menu() { return flags() & MAC_USE_ACCENTS_MENU; }
+
+
+
+
+  Fl_Color color2() const {return (Fl_Color)color2_;}
+
+
+
+
+  void color2(unsigned a) {color2_ = a;}
+};
+# 27 "/usr/local/include/FL/Fl_Group.H" 2 3
+# 41 "/usr/local/include/FL/Fl_Group.H" 3
+class __attribute__ ((visibility ("default"))) Fl_Group : public Fl_Widget {
+
+  Fl_Widget** array_;
+  Fl_Widget* savedfocus_;
+  Fl_Widget* resizable_;
+  int children_;
+  int *sizes_;
+
+  int navigation(int);
+  static Fl_Group *current_;
+
+
+  Fl_Group(const Fl_Group&);
+  Fl_Group& operator=(const Fl_Group&);
+
+protected:
+  void draw();
+  void draw_child(Fl_Widget& widget) const;
+  void draw_children();
+  void draw_outside_label(const Fl_Widget& widget) const ;
+  void update_child(Fl_Widget& widget) const;
+  int *sizes();
+
+public:
+
+  int handle(int);
+  void begin();
+  void end();
+  static Fl_Group *current();
+  static void current(Fl_Group *g);
+
+
+
+
+  int children() const {return children_;}
+
+
+
+  Fl_Widget* child(int n) const {return array()[n];}
+  int find(const Fl_Widget*) const;
+
+
+
+  int find(const Fl_Widget& o) const {return find(&o);}
+  Fl_Widget* const* array() const;
+
+  void resize(int,int,int,int);
+
+
+
+
+  Fl_Group(int,int,int,int, const char * = 0);
+  virtual ~Fl_Group();
+  void add(Fl_Widget&);
+
+
+
+  void add(Fl_Widget* o) {add(*o);}
+  void insert(Fl_Widget&, int i);
+
+
+
+
+  void insert(Fl_Widget& o, Fl_Widget* before) {insert(o,find(before));}
+  void remove(int index);
+  void remove(Fl_Widget&);
+
+
+
+
+  void remove(Fl_Widget* o) {remove(*o);}
+  void clear();
+
+
+
+
+  void resizable(Fl_Widget& o) {resizable_ = &o;}
+# 148 "/usr/local/include/FL/Fl_Group.H" 3
+  void resizable(Fl_Widget* o) {resizable_ = o;}
+
+
+
+  Fl_Widget* resizable() const {return resizable_;}
+
+
+
+  void add_resizable(Fl_Widget& o) {resizable_ = &o; add(o);}
+  void init_sizes();
+# 168 "/usr/local/include/FL/Fl_Group.H" 3
+  void clip_children(int c) { if (c) set_flag(CLIP_CHILDREN); else clear_flag(CLIP_CHILDREN); }
+
+
+
+
+
+
+
+  unsigned int clip_children() { return (flags() & CLIP_CHILDREN) != 0; }
+
+
+  virtual Fl_Group* as_group() { return this; }
+# 188 "/usr/local/include/FL/Fl_Group.H" 3
+  void focus(Fl_Widget* W) {W->take_focus();}
+
+
+  Fl_Widget* & _ddfdesign_kludge() {return resizable_;}
+
+
+  void forms_end();
+};
+# 218 "/usr/local/include/FL/Fl_Group.H" 3
+class __attribute__ ((visibility ("default"))) Fl_End {
+public:
+
+  Fl_End() {Fl_Group::current()->end();}
+};
+# 30 "/usr/local/include/FL/Fl_Window.H" 2 3
+# 1 "/usr/local/include/FL/Fl_Bitmap.H" 1 3
+# 24 "/usr/local/include/FL/Fl_Bitmap.H" 3
+# 1 "/usr/local/include/FL/Fl_Image.H" 1 3
+# 26 "/usr/local/include/FL/Fl_Image.H" 3
+# 1 "/usr/include/c++/9/stdlib.h" 1 3
+# 27 "/usr/local/include/FL/Fl_Image.H" 2 3
+
+class Fl_Widget;
+class Fl_Pixmap;
+struct Fl_Menu_Item;
+struct Fl_Label;
+
+
+
+
+
+enum Fl_RGB_Scaling {
+  FL_RGB_SCALING_NEAREST = 0,
+  FL_RGB_SCALING_BILINEAR
+};
+# 55 "/usr/local/include/FL/Fl_Image.H" 3
+class __attribute__ ((visibility ("default"))) Fl_Image {
+
+public:
+  static const int ERR_NO_IMAGE = -1;
+  static const int ERR_FILE_ACCESS = -2;
+  static const int ERR_FORMAT = -3;
+
+private:
+  int w_, h_, d_, ld_, count_;
+  const char * const *data_;
+  static Fl_RGB_Scaling RGB_scaling_;
+
+
+  Fl_Image & operator=(const Fl_Image &);
+  Fl_Image(const Fl_Image &);
+
+protected:
+
+
+
+
+  void w(int W) {w_ = W;}
+
+
+
+  void h(int H) {h_ = H;}
+
+
+
+  void d(int D) {d_ = D;}
+# 96 "/usr/local/include/FL/Fl_Image.H" 3
+  void ld(int LD) {ld_ = LD;}
+
+
+
+  void data(const char * const *p, int c) {data_ = p; count_ = c;}
+  void draw_empty(int X, int Y);
+
+  static void labeltype(const Fl_Label *lo, int lx, int ly, int lw, int lh, Fl_Align la);
+  static void measure(const Fl_Label *lo, int &lw, int &lh);
+
+public:
+
+
+
+
+  int w() const {return w_;}
+
+
+
+  int h() const {return h_;}
+
+
+
+
+
+  int d() const {return d_;}
+
+
+
+
+  int ld() const {return ld_;}
+
+
+
+
+
+
+  int count() const {return count_;}
+
+
+
+
+  const char * const *data() const {return data_;}
+  int fail();
+  Fl_Image(int W, int H, int D);
+  virtual ~Fl_Image();
+  virtual Fl_Image *copy(int W, int H);
+
+
+
+
+
+
+
+  Fl_Image *copy() { return copy(w(), h()); }
+  virtual void color_average(Fl_Color c, float i);
+# 160 "/usr/local/include/FL/Fl_Image.H" 3
+  void inactive() { color_average(FL_BACKGROUND_COLOR, .33f); }
+  virtual void desaturate();
+  virtual void label(Fl_Widget*w);
+  virtual void label(Fl_Menu_Item*m);
+# 175 "/usr/local/include/FL/Fl_Image.H" 3
+  virtual void draw(int X, int Y, int W, int H, int cx=0, int cy=0);
+
+
+
+
+  void draw(int X, int Y) {draw(X, Y, w(), h(), 0, 0);}
+  virtual void uncache();
+
+
+  static void RGB_scaling(Fl_RGB_Scaling);
+
+
+  static Fl_RGB_Scaling RGB_scaling();
+};
+# 202 "/usr/local/include/FL/Fl_Image.H" 3
+class __attribute__ ((visibility ("default"))) Fl_RGB_Image : public Fl_Image {
+  friend class Fl_Quartz_Graphics_Driver;
+  friend class Fl_GDI_Graphics_Driver;
+  friend class Fl_GDI_Printer_Graphics_Driver;
+  friend class Fl_Xlib_Graphics_Driver;
+  static size_t max_size_;
+public:
+
+
+
+  const uchar *array;
+
+
+  int alloc_array;
+
+  private:
+
+
+
+
+
+  unsigned id_;
+  unsigned mask_;
+
+
+public:
+
+  Fl_RGB_Image(const uchar *bits, int W, int H, int D=3, int LD=0);
+  Fl_RGB_Image(const Fl_Pixmap *pxm, Fl_Color bg=FL_BACKGROUND_COLOR);
+  virtual ~Fl_RGB_Image();
+  virtual Fl_Image *copy(int W, int H);
+  Fl_Image *copy() { return copy(w(), h()); }
+  virtual void color_average(Fl_Color c, float i);
+  virtual void desaturate();
+  virtual void draw(int X, int Y, int W, int H, int cx=0, int cy=0);
+  void draw(int X, int Y) {draw(X, Y, w(), h(), 0, 0);}
+  virtual void label(Fl_Widget*w);
+  virtual void label(Fl_Menu_Item*m);
+  virtual void uncache();
+# 250 "/usr/local/include/FL/Fl_Image.H" 3
+  static void max_size(size_t size) { max_size_ = size;}
+
+
+
+
+  static size_t max_size() {return max_size_;}
+};
+# 25 "/usr/local/include/FL/Fl_Bitmap.H" 2 3
+
+class Fl_Widget;
+struct Fl_Menu_Item;
+
+
+
+
+
+class __attribute__ ((visibility ("default"))) Fl_Bitmap : public Fl_Image {
+  friend class Fl_Quartz_Graphics_Driver;
+  friend class Fl_GDI_Graphics_Driver;
+  friend class Fl_GDI_Printer_Graphics_Driver;
+  friend class Fl_Xlib_Graphics_Driver;
+public:
+
+
+  const uchar *array;
+
+  int alloc_array;
+
+  private:
+  int start(int XP, int YP, int WP, int HP, int &cx, int &cy,
+     int &X, int &Y, int &W, int &H);
+
+
+
+
+
+  unsigned id_;
+
+
+  public:
+
+
+  Fl_Bitmap(const uchar *bits, int W, int H) :
+    Fl_Image(W,H,0), array(bits), alloc_array(0), id_(0) {data((const char **)&array, 1);}
+
+  Fl_Bitmap(const char *bits, int W, int H) :
+    Fl_Image(W,H,0), array((const uchar *)bits), alloc_array(0), id_(0) {data((const char **)&array, 1);}
+  virtual ~Fl_Bitmap();
+  virtual Fl_Image *copy(int W, int H);
+  Fl_Image *copy() { return copy(w(), h()); }
+  virtual void draw(int X, int Y, int W, int H, int cx=0, int cy=0);
+  void draw(int X, int Y) {draw(X, Y, w(), h(), 0, 0);}
+  virtual void label(Fl_Widget*w);
+  virtual void label(Fl_Menu_Item*m);
+  virtual void uncache();
+};
+# 31 "/usr/local/include/FL/Fl_Window.H" 2 3
+# 1 "/usr/include/c++/9/stdlib.h" 1 3
+# 32 "/usr/local/include/FL/Fl_Window.H" 2 3
+
+
+
+
+class Fl_X;
+class Fl_RGB_Image;
+# 57 "/usr/local/include/FL/Fl_Window.H" 3
+class __attribute__ ((visibility ("default"))) Fl_Window : public Fl_Group {
+
+  static char *default_xclass_;
+
+
+
+
+  static
+
+  int no_fullscreen_x;
+
+  static
+
+  int no_fullscreen_y;
+
+  static
+
+  int no_fullscreen_w;
+
+  static
+
+  int no_fullscreen_h;
+
+  static
+
+  int fullscreen_screen_top;
+
+  static
+
+  int fullscreen_screen_bottom;
+
+  static
+
+  int fullscreen_screen_left;
+
+  static
+
+  int fullscreen_screen_right;
+
+  friend class Fl_X;
+  Fl_X *i;
+
+  struct icon_data {
+    const void *legacy_icon;
+    Fl_RGB_Image **icons;
+    int count;
+
+
+
+
+  };
+
+  const char* iconlabel_;
+  char* xclass_;
+  struct icon_data *icon_;
+
+  int minw, minh, maxw, maxh;
+  int dw, dh, aspect;
+  uchar size_range_set;
+
+  Fl_Cursor cursor_default;
+
+
+  Fl_Color cursor_fg, cursor_bg;
+
+
+protected:
+
+  struct shape_data_type {
+    int lw_;
+    int lh_;
+    Fl_Image* shape_;
+
+
+
+
+    Fl_Bitmap *todelete_;
+  };
+
+
+  static
+
+  shape_data_type *shape_data_;
+private:
+  void shape_bitmap_(Fl_Image* b);
+  void shape_alpha_(Fl_Image* img, int offset);
+  void shape_pixmap_(Fl_Image* pixmap);
+public:
+  void shape(const Fl_Image* img);
+
+
+
+  inline void shape(const Fl_Image& b) { shape(&b); }
+
+  void combine_mask(void);
+
+private:
+
+
+  void size_range_();
+  void _Fl_Window();
+  void fullscreen_x();
+  void fullscreen_off_x(int X, int Y, int W, int H);
+
+
+  Fl_Window(const Fl_Window&);
+  Fl_Window& operator=(const Fl_Window&);
+
+protected:
+
+
+  static Fl_Window *current_;
+  virtual void draw();
+
+  virtual void flush();
+# 181 "/usr/local/include/FL/Fl_Window.H" 3
+  void force_position(int force) {
+    if (force) set_flag(FORCE_POSITION);
+    else clear_flag(FORCE_POSITION);
+  }
+# 193 "/usr/local/include/FL/Fl_Window.H" 3
+  int force_position() const { return ((flags() & FORCE_POSITION)?1:0); }
+
+  void free_icons();
+
+public:
+# 227 "/usr/local/include/FL/Fl_Window.H" 3
+    Fl_Window(int w, int h, const char* title= 0);
+
+
+
+
+    Fl_Window(int x, int y, int w, int h, const char* title = 0);
+# 241 "/usr/local/include/FL/Fl_Window.H" 3
+    virtual ~Fl_Window();
+
+  virtual int handle(int);
+# 261 "/usr/local/include/FL/Fl_Window.H" 3
+  virtual void resize(int X,int Y,int W,int H);
+
+
+
+
+
+
+
+  void border(int b);
+
+
+
+
+  void clear_border() {set_flag(NOBORDER);}
+
+  unsigned int border() const {return !(flags() & NOBORDER);}
+
+  void set_override() {set_flag(NOBORDER|OVERRIDE);}
+
+  unsigned int override() const { return flags()&OVERRIDE; }
+# 289 "/usr/local/include/FL/Fl_Window.H" 3
+  void set_modal() {set_flag(MODAL);}
+
+  unsigned int modal() const {return flags() & MODAL;}
+
+
+
+
+
+
+  void set_non_modal() {set_flag(NON_MODAL);}
+
+  unsigned int non_modal() const {return flags() & (NON_MODAL|MODAL);}
+# 339 "/usr/local/include/FL/Fl_Window.H" 3
+  void clear_modal_states() {clear_flag(NON_MODAL | MODAL);}
+# 354 "/usr/local/include/FL/Fl_Window.H" 3
+  void set_menu_window() {set_flag(MENU_WINDOW);}
+
+
+  unsigned int menu_window() const {return flags() & MENU_WINDOW;}
+# 375 "/usr/local/include/FL/Fl_Window.H" 3
+  void set_tooltip_window() { set_flag(TOOLTIP_WINDOW);
+      clear_flag(MENU_WINDOW); }
+
+  unsigned int tooltip_window() const {return flags() & TOOLTIP_WINDOW;}
+# 387 "/usr/local/include/FL/Fl_Window.H" 3
+  void hotspot(int x, int y, int offscreen = 0);
+
+  void hotspot(const Fl_Widget*, int offscreen = 0);
+
+  void hotspot(const Fl_Widget& p, int offscreen = 0) {hotspot(&p,offscreen);}
+# 401 "/usr/local/include/FL/Fl_Window.H" 3
+  void free_position() {clear_flag(FORCE_POSITION);}
+# 438 "/usr/local/include/FL/Fl_Window.H" 3
+  void size_range(int minw, int minh, int maxw=0, int maxh=0, int dw=0, int dh=0, int aspect=0) {
+    this->minw = minw;
+    this->minh = minh;
+    this->maxw = maxw;
+    this->maxh = maxh;
+    this->dw = dw;
+    this->dh = dh;
+    this->aspect = aspect;
+    size_range_();
+  }
+
+
+  const char* label() const {return Fl_Widget::label();}
+
+  const char* iconlabel() const {return iconlabel_;}
+
+  void label(const char*);
+
+  void iconlabel(const char*);
+
+  void label(const char* label, const char* iconlabel);
+  void copy_label(const char* a);
+
+  static void default_xclass(const char*);
+  static const char *default_xclass();
+  const char* xclass() const;
+  void xclass(const char* c);
+
+  static void default_icon(const Fl_RGB_Image*);
+  static void default_icons(const Fl_RGB_Image*[], int);
+  void icon(const Fl_RGB_Image*);
+  void icons(const Fl_RGB_Image*[], int);
+
+
+
+
+
+
+
+  const void* icon() const;
+  void icon(const void * ic);
+
+
+
+
+
+
+  int shown() {return i != 0;}
+# 512 "/usr/local/include/FL/Fl_Window.H" 3
+  virtual void show();
+
+
+
+
+  virtual void hide();
+# 538 "/usr/local/include/FL/Fl_Window.H" 3
+  void show(int argc, char **argv);
+
+
+  void wait_for_expose();
+# 554 "/usr/local/include/FL/Fl_Window.H" 3
+  void fullscreen();
+
+
+
+  void fullscreen_off();
+
+
+
+
+  void fullscreen_off(int X,int Y,int W,int H);
+
+
+
+  unsigned int fullscreen_active() const { return flags() & FULLSCREEN; }
+# 578 "/usr/local/include/FL/Fl_Window.H" 3
+  void fullscreen_screens(int top, int bottom, int left, int right);
+# 594 "/usr/local/include/FL/Fl_Window.H" 3
+  void iconize();
+
+  int x_root() const ;
+  int y_root() const ;
+
+ static Fl_Window *current();
+# 609 "/usr/local/include/FL/Fl_Window.H" 3
+  void make_current();
+
+
+  virtual Fl_Window* as_window() { return this; }
+# 624 "/usr/local/include/FL/Fl_Window.H" 3
+  void cursor(Fl_Cursor);
+  void cursor(const Fl_RGB_Image*, int, int);
+  void default_cursor(Fl_Cursor);
+
+
+  void cursor(Fl_Cursor c, Fl_Color, Fl_Color=FL_WHITE);
+  void default_cursor(Fl_Cursor c, Fl_Color, Fl_Color=FL_WHITE);
+
+  static void default_callback(Fl_Window*, void* v);
+
+
+
+
+
+  int decorated_w();
+
+
+
+
+
+  int decorated_h();
+
+};
+# 3 "/home/umang/Desktop/Embedded GUI/Downloads from Moodle/ELearning_EG_FLTK_Tasks/hello-c-win/hello.cpp" 2
+# 1 "/usr/local/include/FL/Fl_Output.H" 1 3
+# 25 "/usr/local/include/FL/Fl_Output.H" 3
+# 1 "/usr/local/include/FL/Fl_Input.H" 1 3
+# 25 "/usr/local/include/FL/Fl_Input.H" 3
+# 1 "/usr/local/include/FL/Fl_Input_.H" 1 3
+# 94 "/usr/local/include/FL/Fl_Input_.H" 3
+class __attribute__ ((visibility ("default"))) Fl_Input_ : public Fl_Widget {
+
+
+  const char* value_;
+
+
+  char* buffer;
+
+
+  int size_;
+
+
+  int bufsize;
+
+
+  int position_;
+
+
+
+  int mark_;
+
+
+
+
+  int tab_nav_;
+
+
+  int xscroll_, yscroll_;
+
+
+
+  int mu_p;
+
+
+  int maximum_size_;
+
+
+  int shortcut_;
+
+
+  uchar erase_cursor_only;
+
+
+  Fl_Font textfont_;
+
+
+  Fl_Fontsize textsize_;
+
+
+  Fl_Color textcolor_;
+
+
+  Fl_Color cursor_color_;
+
+
+  static double up_down_pos;
+
+
+  static int was_up_down;
+
+
+  const char* expand(const char*, char*) const;
+
+
+  double expandpos(const char*, const char*, const char*, int*) const;
+
+
+  void minimal_update(int, int);
+
+
+  void minimal_update(int p);
+
+
+  void put_in_buffer(int newsize);
+
+
+  void setfont() const;
+
+protected:
+
+
+  int word_start(int i) const;
+
+
+  int word_end(int i) const;
+
+
+  int line_start(int i) const;
+
+
+  int line_end(int i) const;
+
+
+  void drawtext(int, int, int, int);
+
+
+  int up_down_position(int, int keepmark=0);
+
+
+  void handle_mouse(int, int, int, int, int keepmark=0);
+
+
+  int handletext(int e, int, int, int, int);
+
+
+  void maybe_do_callback();
+
+
+  int xscroll() const {return xscroll_;}
+
+
+  int yscroll() const {return yscroll_;}
+  void yscroll(int yOffset) { yscroll_ = yOffset; damage(FL_DAMAGE_EXPOSE);}
+
+
+  int linesPerPage();
+
+public:
+
+
+  void resize(int, int, int, int);
+
+
+  Fl_Input_(int, int, int, int, const char* = 0);
+
+
+  ~Fl_Input_();
+
+
+  int value(const char*);
+
+
+  int value(const char*, int);
+
+
+  int static_value(const char*);
+
+
+  int static_value(const char*, int);
+# 244 "/usr/local/include/FL/Fl_Input_.H" 3
+  const char* value() const {return value_;}
+
+
+  Fl_Char index(int i) const;
+# 257 "/usr/local/include/FL/Fl_Input_.H" 3
+  int size() const {return size_;}
+
+
+
+
+  void size(int W, int H) { Fl_Widget::size(W, H); }
+
+
+
+  int maximum_size() const {return maximum_size_;}
+# 277 "/usr/local/include/FL/Fl_Input_.H" 3
+  void maximum_size(int m) {maximum_size_ = m;}
+
+
+
+
+
+  int position() const {return position_;}
+
+
+
+  int mark() const {return mark_;}
+
+
+  int position(int p, int m);
+
+
+
+
+
+
+
+  int position(int p) {return position(p, p);}
+
+
+
+
+
+
+  int mark(int m) {return position(position(), m);}
+
+
+  int replace(int b, int e, const char *text, int ilen=0);
+# 320 "/usr/local/include/FL/Fl_Input_.H" 3
+  int cut() {return replace(position(), mark(), 0);}
+# 334 "/usr/local/include/FL/Fl_Input_.H" 3
+  int cut(int n) {return replace(position(), position()+n, 0);}
+# 347 "/usr/local/include/FL/Fl_Input_.H" 3
+  int cut(int a, int b) {return replace(a, b, 0);}
+# 360 "/usr/local/include/FL/Fl_Input_.H" 3
+  int insert(const char* t, int l=0){return replace(position_, mark_, t, l);}
+
+
+  int copy(int clipboard);
+
+
+  int undo();
+
+
+  int copy_cuts();
+
+
+
+
+  int shortcut() const {return shortcut_;}
+
+
+
+
+
+
+
+  void shortcut(int s) {shortcut_ = s;}
+
+
+
+  Fl_Font textfont() const {return textfont_;}
+
+
+
+
+  void textfont(Fl_Font s) {textfont_ = s;}
+
+
+
+  Fl_Fontsize textsize() const {return textsize_;}
+
+
+
+
+  void textsize(Fl_Fontsize s) {textsize_ = s;}
+
+
+
+
+  Fl_Color textcolor() const {return textcolor_;}
+
+
+
+
+
+  void textcolor(Fl_Color n) {textcolor_ = n;}
+
+
+
+  Fl_Color cursor_color() const {return cursor_color_;}
+
+
+
+
+  void cursor_color(Fl_Color n) {cursor_color_ = n;}
+
+
+
+  int input_type() const {return type() & 7; }
+
+
+
+
+  void input_type(int t) { type((uchar)(t | readonly())); }
+
+
+
+  int readonly() const { return type() & 8; }
+
+
+
+  void readonly(int b) { if (b) type((uchar)(type() | 8));
+                         else type((uchar)(type() & ~8)); }
+
+
+
+
+
+  int wrap() const { return type() & 16; }
+
+
+
+
+
+  void wrap(int b) { if (b) type((uchar)(type() | 16));
+                         else type((uchar)(type() & ~16)); }
+# 476 "/usr/local/include/FL/Fl_Input_.H" 3
+  void tab_nav(int val) {
+    tab_nav_ = val;
+  }
+# 490 "/usr/local/include/FL/Fl_Input_.H" 3
+  int tab_nav() const {
+    return tab_nav_;
+  }
+};
+# 26 "/usr/local/include/FL/Fl_Input.H" 2 3
+# 222 "/usr/local/include/FL/Fl_Input.H" 3
+class __attribute__ ((visibility ("default"))) Fl_Input : public Fl_Input_ {
+  int handle_key();
+  int shift_position(int p);
+  int shift_up_down_position(int p);
+  void handle_mouse(int keepmark=0);
+
+
+  int kf_lines_up(int repeat_num);
+  int kf_lines_down(int repeat_num);
+  int kf_page_up();
+  int kf_page_down();
+  int kf_insert_toggle();
+  int kf_delete_word_right();
+  int kf_delete_word_left();
+  int kf_delete_sol();
+  int kf_delete_eol();
+  int kf_delete_char_right();
+  int kf_delete_char_left();
+  int kf_move_sol();
+  int kf_move_eol();
+  int kf_clear_eol();
+  int kf_move_char_left();
+  int kf_move_char_right();
+  int kf_move_word_left();
+  int kf_move_word_right();
+  int kf_move_up_and_sol();
+  int kf_move_down_and_eol();
+  int kf_top();
+  int kf_bottom();
+  int kf_select_all();
+  int kf_undo();
+  int kf_redo();
+  int kf_copy();
+  int kf_paste();
+  int kf_copy_cut();
+
+protected:
+  void draw();
+public:
+  int handle(int);
+  Fl_Input(int,int,int,int,const char * = 0);
+};
+# 26 "/usr/local/include/FL/Fl_Output.H" 2 3
+# 47 "/usr/local/include/FL/Fl_Output.H" 3
+class __attribute__ ((visibility ("default"))) Fl_Output : public Fl_Input {
+public:
+
+
+
+
+
+
+
+    Fl_Output(int X,int Y,int W,int H, const char *l = 0);
+};
+# 4 "/home/umang/Desktop/Embedded GUI/Downloads from Moodle/ELearning_EG_FLTK_Tasks/hello-c-win/hello.cpp" 2
+
+
+# 5 "/home/umang/Desktop/Embedded GUI/Downloads from Moodle/ELearning_EG_FLTK_Tasks/hello-c-win/hello.cpp"
+static Fl_Window Window(400, 140, "Hello");
+static Fl_Output Text(100, 40, 200, 40);
+
+int main(void)
+{
+ Text.value("Hello APP");
+ Window.show();
+ while (Fl::wait())
+ {
+
+ }
+ return 
+# 16 "/home/umang/Desktop/Embedded GUI/Downloads from Moodle/ELearning_EG_FLTK_Tasks/hello-c-win/hello.cpp" 3 4
+       0
+# 16 "/home/umang/Desktop/Embedded GUI/Downloads from Moodle/ELearning_EG_FLTK_Tasks/hello-c-win/hello.cpp"
+                   ;
+}

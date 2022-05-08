@@ -1,0 +1,5 @@
+echo g++ compiling ...
+dir <Obey$Dir>
+copy tank/cc cc.tank ~cf~v
+wimpslot 20M
+g++ -o ^.!RunImage cc.tank a.libtbx -std=gnu++11
